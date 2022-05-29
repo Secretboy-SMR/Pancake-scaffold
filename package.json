@@ -1,0 +1,22 @@
+{
+  "name": "Rewrite",
+  "version": "1.0.0",
+  "description": "Rewrite",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick",
+  "license": "ISC",
+  "dependencies": {
+    "base64-js": "^1.5.1",
+    "dgram": "^1.0.1",
+    "ffi-napi": "^4.0.3",
+    "http": "0.0.1-security",
+    "net": "^1.0.2",
+    "node-kcp": "^1.0.12",
+    "protobufjs": "^6.11.2",
+    "sqlite3": "^5.0.2",
+    "udp-proxy": "^1.2.0"
+  }
+}
