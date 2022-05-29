@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+
+message FocusAvatarRsp {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 1641;
+	}
+
+	int32 retcode = 7;
+	bool is_focus = 1;
+	uint64 avatar_guid = 4;
+}

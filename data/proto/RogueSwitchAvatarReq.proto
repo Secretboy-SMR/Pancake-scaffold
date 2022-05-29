@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+
+message RogueSwitchAvatarReq {
+	enum CmdId {
+		option allow_alias = true;
+		ENET_CHANNEL_ID = 0;
+		NONE = 0;
+		ENET_IS_RELIABLE = 1;
+		IS_ALLOW_CLIENT = 1;
+		CMD_ID = 8156;
+	}
+
+	uint32 dungeon_id = 6;
+	uint32 cell_id = 4;
+	repeated uint64 onstage_avatar_guid_list = 1;
+	uint64 cur_avatar_guid = 3;
+}

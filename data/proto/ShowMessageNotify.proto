@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "SvrMsgId.proto";
+import "MsgParam.proto";
+
+message ShowMessageNotify {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 83;
+	}
+
+	SvrMsgId msg_id = 5;
+	repeated MsgParam params = 8;
+}

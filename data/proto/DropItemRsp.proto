@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "StoreType.proto";
+
+message DropItemRsp {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 680;
+	}
+
+	int32 retcode = 6;
+	StoreType store_type = 10;
+	uint64 guid = 13;
+}

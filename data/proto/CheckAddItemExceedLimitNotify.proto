@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+
+message CheckAddItemExceedLimitNotify {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 669;
+	}
+
+	enum ItemExceedLimitMsgType {
+		ITEM_EXCEED_LIMIT_MSG_DEFAULT = 0;
+		ITEM_EXCEED_LIMIT_MSG_TEXT = 1;
+		ITEM_EXCEED_LIMIT_MSG_DIALOG = 2;
+	}
+
+	bool is_drop = 8;
+	repeated uint32 exceeded_item_list = 12;
+	repeated uint32 exceeded_item_type_list = 1;
+	ItemExceedLimitMsgType msg_type = 2;
+}

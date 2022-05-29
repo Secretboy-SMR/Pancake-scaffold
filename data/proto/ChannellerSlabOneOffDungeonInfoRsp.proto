@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+message ChannellerSlabOneOffDungeonInfoRsp {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 8788;
+	}
+
+	int32 retcode = 10;
+	repeated uint32 scheme_buff_id_list = 8;
+}

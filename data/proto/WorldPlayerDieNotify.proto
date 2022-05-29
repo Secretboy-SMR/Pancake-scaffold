@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "PlayerDieType.proto";
+
+message WorldPlayerDieNotify {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 216;
+	}
+
+	oneof Entity {
+	}
+	PlayerDieType die_type = 6;
+	uint32 murderer_entity_id = 15;
+	uint32 monster_id = 8;
+	uint32 gadget_id = 1;
+}

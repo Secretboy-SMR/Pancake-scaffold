@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+
+message SetEquipLockStateRsp {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 645;
+	}
+
+	int32 retcode = 15;
+	uint64 target_equip_guid = 7;
+	bool is_locked = 5;
+}

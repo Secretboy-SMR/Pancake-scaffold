@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "BlessingRecvPicRecord.proto";
+
+message BlessingGetAllRecvPicRecordListRsp {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 2146;
+	}
+
+	int32 retcode = 5;
+	repeated BlessingRecvPicRecord recv_pic_record_list = 15;
+}

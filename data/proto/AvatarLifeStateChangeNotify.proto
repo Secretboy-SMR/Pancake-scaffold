@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+import "PlayerDieType.proto";
+import "ServerBuff.proto";
+
+message AvatarLifeStateChangeNotify {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 1218;
+	}
+
+	uint64 avatar_guid = 8;
+	uint32 life_state = 15;
+	uint32 source_entity_id = 1;
+	string attack_tag = 3;
+	PlayerDieType die_type = 9;
+	uint32 move_reliable_seq = 6;
+	repeated ServerBuff server_buff_list = 2;
+}

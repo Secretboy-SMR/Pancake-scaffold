@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+
+message GetAuthkeyRsp {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 1463;
+	}
+
+	int32 retcode = 8;
+	string authkey = 15;
+	string auth_appid = 11;
+	uint32 sign_type = 13;
+	uint32 authkey_ver = 5;
+	string game_biz = 14;
+}

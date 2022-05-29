@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "MotionInfo.proto";
+
+message EntityForceSyncRsp {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 211;
+	}
+
+	int32 retcode = 5;
+	uint32 entity_id = 13;
+	MotionInfo fail_motion = 12;
+	uint32 scene_time = 6;
+}

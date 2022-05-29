@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+
+message ServerUpdateGlobalValueNotify {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 1123;
+	}
+
+	enum UpdateType {
+		INVALUE = 0;
+		ADD = 1;
+		SET = 2;
+	}
+
+	uint32 entity_id = 4;
+	uint32 key_hash = 5;
+	UpdateType update_type = 9;
+	float delta = 12;
+	float value = 14;
+}

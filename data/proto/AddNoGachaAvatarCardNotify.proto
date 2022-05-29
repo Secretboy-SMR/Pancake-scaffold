@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+import "AddNoGachaAvatarCardTransferItem.proto";
+
+message AddNoGachaAvatarCardNotify {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 1662;
+	}
+
+	uint32 item_id = 7;
+	bool is_transfer_to_item = 8;
+	uint32 avatar_id = 15;
+	uint32 initial_level = 13;
+	uint32 initial_promote_level = 14;
+	repeated AddNoGachaAvatarCardTransferItem transfer_item_list = 3;
+	uint32 reason = 10;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "InteractType.proto";
+import "InterOpType.proto";
+
+message MiracleRingDeliverItemRsp {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 5204;
+	}
+
+	int32 retcode = 2;
+	uint32 gadget_entity_id = 11;
+	InteractType interact_type = 14;
+	InterOpType op_type = 4;
+	uint32 gadget_id = 5;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+
+message PlayerGeneralMatchConfirmNotify {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 4158;
+	}
+
+	uint32 match_id = 11;
+	uint32 uid = 15;
+	bool is_agree = 14;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "BargainSnapshot.proto";
+
+message BargainStartNotify {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 486;
+	}
+
+	uint32 bargain_id = 9;
+	BargainSnapshot snapshot = 12;
+}

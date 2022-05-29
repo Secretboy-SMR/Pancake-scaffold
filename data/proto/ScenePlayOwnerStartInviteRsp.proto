@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+
+message ScenePlayOwnerStartInviteRsp {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 4426;
+	}
+
+	int32 retcode = 6;
+	uint32 play_id = 13;
+	bool is_skip_match = 10;
+}

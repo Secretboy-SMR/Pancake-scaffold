@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "FishingGallerySettleInfo.proto";
+
+message FishingGallerySettleNotify {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 8758;
+	}
+
+	FishingGallerySettleInfo settle_info = 8;
+	uint32 gallery_id = 4;
+	uint32 level_id = 3;
+}

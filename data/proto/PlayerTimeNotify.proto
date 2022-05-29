@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+
+message PlayerTimeNotify {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 165;
+	}
+
+	bool is_paused = 13;
+	uint64 player_time = 3;
+	uint64 server_time = 11;
+}

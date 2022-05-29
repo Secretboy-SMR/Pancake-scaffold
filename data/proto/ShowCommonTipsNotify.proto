@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+
+message ShowCommonTipsNotify {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 3345;
+	}
+
+	string title = 12;
+	string content = 4;
+	uint32 close_time = 3;
+}
