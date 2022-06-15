@@ -8,8 +8,8 @@ message ClientCollectorDataNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4284;
+		CMD_ID = 4264;
 	}
 
-	repeated ClientCollectorData client_collector_data_list = 2;
+	repeated ClientCollectorData client_collector_data_list = 8;
 }

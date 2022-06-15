@@ -11,6 +11,6 @@ message DropHintNotify {
 		CMD_ID = 622;
 	}
 
-	repeated uint32 item_id_list = 2;
-	Vector position = 3;
+	repeated uint32 item_id_list = 12;
+	Vector position = 1;
 }

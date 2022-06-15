@@ -8,10 +8,10 @@ message ReunionBriefInfoRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5091;
+		CMD_ID = 5059;
 	}
 
-	int32 retcode = 8;
-	bool is_activate = 10;
-	ReunionBriefInfo reunion_brief_info = 15;
+	int32 retcode = 14;
+	bool is_activate = 1;
+	ReunionBriefInfo reunion_brief_info = 9;
 }

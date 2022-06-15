@@ -8,15 +8,15 @@ import "ShopConcertProduct.proto";
 message RechargeReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 4131;
+		CMD_ID = 4118;
 	}
 
-	ShopMcoinProduct mcoin_product = 6;
-	ShopCardProduct card_product = 12;
-	PlayProduct play_product = 4;
-	ShopConcertProduct concert_product = 8;
+	ShopMcoinProduct mcoin_product = 10;
+	ShopCardProduct card_product = 5;
+	PlayProduct play_product = 6;
+	ShopConcertProduct concert_product = 7;
 }

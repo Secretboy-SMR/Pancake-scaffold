@@ -2,8 +2,8 @@ syntax = "proto3";
 
 
 message BargainSnapshot {
-	int32 cur_mood = 1;
-	uint32 expected_price = 2;
-	uint32 price_low_limit = 3;
-	uint32 bargain_id = 4;
+	int32 cur_mood = 9;
+	uint32 expected_price = 5;
+	uint32 price_low_limit = 11;
+	uint32 bargain_id = 8;
 }

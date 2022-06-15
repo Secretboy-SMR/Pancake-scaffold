@@ -4,12 +4,12 @@ syntax = "proto3";
 message HomeChangeModuleReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 4619;
+		CMD_ID = 4688;
 	}
 
-	uint32 target_module_id = 15;
+	uint32 target_module_id = 6;
 }

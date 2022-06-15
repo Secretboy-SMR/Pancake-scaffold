@@ -7,10 +7,10 @@ message GmTalkRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 81;
+		CMD_ID = 41;
 	}
 
 	int32 retcode = 5;
-	string msg = 3;
-	string retmsg = 7;
+	string msg = 2;
+	string retmsg = 13;
 }

@@ -8,10 +8,10 @@ message PlayerGeneralMatchDismissNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4159;
+		CMD_ID = 4187;
 	}
 
-	uint32 match_id = 6;
-	MatchReason reason = 2;
-	repeated uint32 uid_list = 8;
+	uint32 match_id = 13;
+	MatchReason reason = 11;
+	repeated uint32 uid_list = 14;
 }

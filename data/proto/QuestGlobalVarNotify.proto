@@ -8,8 +8,8 @@ message QuestGlobalVarNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 403;
+		CMD_ID = 411;
 	}
 
-	repeated QuestGlobalVar var_list = 7;
+	repeated QuestGlobalVar var_list = 9;
 }

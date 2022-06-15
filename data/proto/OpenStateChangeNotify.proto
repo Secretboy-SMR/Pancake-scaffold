@@ -7,8 +7,8 @@ message OpenStateChangeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 174;
+		CMD_ID = 112;
 	}
 
-	map<uint32, uint32> open_state_map = 3;
+	map<uint32, uint32> open_state_map = 2;
 }

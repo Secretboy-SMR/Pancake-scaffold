@@ -7,10 +7,10 @@ message CardProductRewardNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4101;
+		CMD_ID = 4104;
 	}
 
-	string product_id = 12;
-	uint32 hcoin = 5;
-	uint32 remain_days = 4;
+	string product_id = 6;
+	uint32 hcoin = 11;
+	uint32 remain_days = 5;
 }

@@ -7,9 +7,9 @@ message AvatarFightPropNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1276;
+		CMD_ID = 1232;
 	}
 
-	uint64 avatar_guid = 1;
-	map<uint32, float> fight_prop_map = 2;
+	uint64 avatar_guid = 3;
+	map<uint32, float> fight_prop_map = 6;
 }

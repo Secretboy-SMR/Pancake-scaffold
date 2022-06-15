@@ -8,13 +8,13 @@ message ActivityCondStateChangeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2131;
+		CMD_ID = 2038;
 	}
 
-	uint32 schedule_id = 4;
-	uint32 activity_id = 10;
+	uint32 schedule_id = 14;
+	uint32 activity_id = 7;
 	repeated uint32 meet_cond_list = 3;
-	repeated uint32 expire_cond_list = 7;
+	repeated uint32 expire_cond_list = 4;
 	repeated uint32 activated_sale_id_list = 5;
 	repeated Uint32Pair disable_transfer_point_interaction_list = 6;
 }

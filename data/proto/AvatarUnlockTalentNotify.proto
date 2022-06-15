@@ -7,11 +7,11 @@ message AvatarUnlockTalentNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1081;
+		CMD_ID = 1041;
 	}
 
-	uint64 avatar_guid = 10;
-	uint32 entity_id = 9;
-	uint32 talent_id = 4;
+	uint64 avatar_guid = 1;
+	uint32 entity_id = 15;
+	uint32 talent_id = 13;
 	uint32 skill_depot_id = 14;
 }

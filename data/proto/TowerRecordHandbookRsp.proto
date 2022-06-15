@@ -8,9 +8,9 @@ message TowerRecordHandbookRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2404;
+		CMD_ID = 2454;
 	}
 
-	int32 retcode = 4;
-	repeated TowerMonthlyDetail monthly_detail_list = 8;
+	int32 retcode = 6;
+	repeated TowerMonthlyDetail monthly_detail_list = 12;
 }

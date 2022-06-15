@@ -5,14 +5,14 @@ import "CustomGadgetTreeInfo.proto";
 message PlantFlowerEditFlowerCombinationReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 8135;
+		CMD_ID = 8506;
 	}
 
-	uint32 schedule_id = 4;
-	uint32 entity_id = 9;
-	CustomGadgetTreeInfo flower_combination_info = 7;
+	uint32 schedule_id = 13;
+	uint32 entity_id = 3;
+	CustomGadgetTreeInfo flower_combination_info = 11;
 }

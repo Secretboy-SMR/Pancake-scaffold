@@ -8,7 +8,7 @@ message TowerLevelEndNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2472;
+		CMD_ID = 2442;
 	}
 
 	enum ContinueStateType {
@@ -17,9 +17,9 @@ message TowerLevelEndNotify {
 		CONTINUE_STATE_CAN_ENTER_NEXT_FLOOR = 2;
 	}
 
-	bool is_success = 3;
-	repeated uint32 finished_star_cond_list = 4;
-	repeated ItemParam reward_item_list = 11;
-	uint32 continue_state = 5;
-	uint32 next_floor_id = 12;
+	bool is_success = 14;
+	repeated uint32 finished_star_cond_list = 1;
+	repeated ItemParam reward_item_list = 9;
+	uint32 continue_state = 2;
+	uint32 next_floor_id = 8;
 }

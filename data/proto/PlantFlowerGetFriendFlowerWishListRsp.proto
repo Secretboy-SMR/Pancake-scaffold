@@ -8,10 +8,10 @@ message PlantFlowerGetFriendFlowerWishListRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8471;
+		CMD_ID = 8553;
 	}
 
-	int32 retcode = 9;
+	int32 retcode = 11;
 	uint32 schedule_id = 13;
-	repeated PlantFlowerFriendFlowerWishData friend_flower_wish_list = 12;
+	repeated PlantFlowerFriendFlowerWishData friend_flower_wish_list = 8;
 }

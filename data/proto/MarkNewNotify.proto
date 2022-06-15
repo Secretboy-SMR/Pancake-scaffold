@@ -7,9 +7,9 @@ message MarkNewNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1290;
+		CMD_ID = 1227;
 	}
 
-	uint32 mark_new_type = 7;
-	repeated uint32 id_list = 15;
+	uint32 mark_new_type = 10;
+	repeated uint32 id_list = 13;
 }

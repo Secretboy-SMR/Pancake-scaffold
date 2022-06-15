@@ -8,13 +8,13 @@ message SumoEnterDungeonNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8711;
+		CMD_ID = 8727;
 	}
 
-	uint32 activity_id = 10;
-	uint32 stage_id = 13;
-	repeated SumoDungeonTeam dungeon_team_list = 7;
-	uint32 cur_team_index = 14;
-	uint32 next_valid_switch_time = 2;
-	uint32 no_switch_punish_time = 15;
+	uint32 activity_id = 4;
+	uint32 stage_id = 9;
+	repeated SumoDungeonTeam dungeon_team_list = 14;
+	uint32 cur_team_index = 11;
+	uint32 next_valid_switch_time = 1;
+	uint32 no_switch_punish_time = 8;
 }

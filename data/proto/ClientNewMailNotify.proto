@@ -7,9 +7,9 @@ message ClientNewMailNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1427;
+		CMD_ID = 1482;
 	}
 
-	uint32 not_read_num = 9;
-	uint32 not_got_attachment_num = 14;
+	uint32 not_read_num = 4;
+	uint32 not_got_attachment_num = 15;
 }

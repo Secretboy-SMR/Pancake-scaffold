@@ -8,9 +8,9 @@ message DungeonCandidateTeamPlayerLeaveNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 954;
+		CMD_ID = 920;
 	}
 
-	uint32 player_uid = 6;
-	DungeonCandidateTeamPlayerLeaveReason reason = 3;
+	uint32 player_uid = 8;
+	DungeonCandidateTeamPlayerLeaveReason reason = 2;
 }

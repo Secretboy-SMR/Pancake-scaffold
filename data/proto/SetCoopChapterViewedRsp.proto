@@ -7,9 +7,9 @@ message SetCoopChapterViewedRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1962;
+		CMD_ID = 1998;
 	}
 
-	int32 retcode = 8;
-	uint32 chapter_id = 12;
+	int32 retcode = 15;
+	uint32 chapter_id = 3;
 }

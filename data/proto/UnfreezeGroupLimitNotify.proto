@@ -7,9 +7,9 @@ message UnfreezeGroupLimitNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3005;
+		CMD_ID = 3253;
 	}
 
-	uint32 point_id = 1;
-	uint32 scene_id = 15;
+	uint32 point_id = 10;
+	uint32 scene_id = 2;
 }

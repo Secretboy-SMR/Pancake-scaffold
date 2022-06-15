@@ -7,9 +7,9 @@ message DraftOwnerInviteNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5476;
+		CMD_ID = 5432;
 	}
 
-	uint32 draft_id = 15;
-	uint32 invite_deadline_time = 7;
+	uint32 draft_id = 7;
+	uint32 invite_deadline_time = 1;
 }

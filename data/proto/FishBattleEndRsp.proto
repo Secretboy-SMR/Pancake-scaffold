@@ -9,7 +9,7 @@ message FishBattleEndRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5808;
+		CMD_ID = 5832;
 	}
 
 	enum FishNoRewardReason {
@@ -19,11 +19,11 @@ message FishBattleEndRsp {
 		FISH_NO_REWARD_POOL_LIMIT = 3;
 	}
 
-	int32 retcode = 2;
-	FishBattleResult battle_result = 8;
+	int32 retcode = 5;
+	FishBattleResult battle_result = 9;
 	bool is_got_reward = 3;
-	FishNoRewardReason no_reward_reason = 4;
-	repeated ItemParam reward_item_list = 10;
-	repeated ItemParam drop_item_list = 5;
-	repeated ItemParam talent_item_list = 7;
+	FishNoRewardReason no_reward_reason = 13;
+	repeated ItemParam reward_item_list = 7;
+	repeated ItemParam drop_item_list = 1;
+	repeated ItemParam talent_item_list = 12;
 }

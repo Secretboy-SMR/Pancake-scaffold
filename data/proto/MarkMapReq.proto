@@ -5,11 +5,11 @@ import "MapMarkPoint.proto";
 message MarkMapReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 3235;
+		CMD_ID = 3208;
 	}
 
 	enum Operation {
@@ -19,7 +19,7 @@ message MarkMapReq {
 		GET = 3;
 	}
 
-	Operation op = 2;
+	Operation op = 15;
 	MapMarkPoint old = 10;
-	MapMarkPoint mark = 15;
+	MapMarkPoint mark = 4;
 }

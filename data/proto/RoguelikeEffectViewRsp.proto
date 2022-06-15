@@ -4,12 +4,12 @@ syntax = "proto3";
 message RoguelikeEffectViewRsp {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 8904;
+		CMD_ID = 8770;
 	}
 
-	int32 retcode = 13;
+	int32 retcode = 7;
 }

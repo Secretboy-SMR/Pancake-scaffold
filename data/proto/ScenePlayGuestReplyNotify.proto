@@ -7,10 +7,10 @@ message ScenePlayGuestReplyNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4413;
+		CMD_ID = 4399;
 	}
 
-	uint32 play_id = 4;
-	uint32 guest_uid = 2;
-	bool is_agree = 11;
+	uint32 play_id = 6;
+	uint32 guest_uid = 12;
+	bool is_agree = 4;
 }

@@ -5,11 +5,11 @@ import "Vector.proto";
 message UseMiracleRingReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 5231;
+		CMD_ID = 5218;
 	}
 
 	enum MiracleRingOpType {
@@ -18,7 +18,7 @@ message UseMiracleRingReq {
 		MIRACLE_RING_OP_RETRACT = 2;
 	}
 
-	uint32 miracle_ring_op_type = 1;
-	Vector pos = 4;
-	Vector rot = 14;
+	uint32 miracle_ring_op_type = 2;
+	Vector pos = 8;
+	Vector rot = 7;
 }

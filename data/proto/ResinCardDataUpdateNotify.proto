@@ -8,9 +8,9 @@ message ResinCardDataUpdateNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4116;
+		CMD_ID = 4101;
 	}
 
-	repeated ResinCardData card_data_list = 4;
-	uint32 today_start_time = 3;
+	repeated ResinCardData card_data_list = 6;
+	uint32 today_start_time = 8;
 }

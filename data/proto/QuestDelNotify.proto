@@ -7,7 +7,7 @@ message QuestDelNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 481;
+		CMD_ID = 441;
 	}
 
 	uint32 quest_id = 12;

@@ -9,11 +9,11 @@ message VehicleInteractRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 886;
+		CMD_ID = 806;
 	}
 
-	int32 retcode = 5;
-	uint32 entity_id = 11;
-	VehicleInteractType interact_type = 14;
-	VehicleMember member = 3;
+	int32 retcode = 15;
+	uint32 entity_id = 14;
+	VehicleInteractType interact_type = 3;
+	VehicleMember member = 1;
 }

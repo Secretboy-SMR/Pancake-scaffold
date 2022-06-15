@@ -8,8 +8,8 @@ message AvatarFetterDataNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1620;
+		CMD_ID = 1777;
 	}
 
-	map<uint64, AvatarFetterInfo> fetter_info_map = 3;
+	map<uint64, AvatarFetterInfo> fetter_info_map = 1;
 }

@@ -7,9 +7,9 @@ message EnterFishingRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5841;
+		CMD_ID = 5809;
 	}
 
-	int32 retcode = 2;
-	uint32 fish_pool_id = 5;
+	int32 retcode = 5;
+	uint32 fish_pool_id = 10;
 }

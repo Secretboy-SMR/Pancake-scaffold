@@ -7,8 +7,8 @@ message HomeAvatarAllFinishRewardNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4716;
+		CMD_ID = 4873;
 	}
 
-	repeated uint32 event_id_list = 1;
+	repeated uint32 event_id_list = 9;
 }

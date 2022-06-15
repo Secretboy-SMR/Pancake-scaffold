@@ -7,9 +7,9 @@ message ChannelerSlabStageOneoffDungeonNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8600;
+		CMD_ID = 8522;
 	}
 
-	uint32 stage_id = 9;
-	bool is_done = 5;
+	uint32 stage_id = 5;
+	bool is_done = 2;
 }

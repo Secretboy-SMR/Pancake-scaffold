@@ -7,9 +7,9 @@ message AvatarPromoteRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1764;
+		CMD_ID = 1668;
 	}
 
-	int32 retcode = 5;
-	uint64 guid = 8;
+	int32 retcode = 15;
+	uint64 guid = 7;
 }

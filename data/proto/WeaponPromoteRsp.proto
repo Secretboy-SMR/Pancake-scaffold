@@ -7,11 +7,11 @@ message WeaponPromoteRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 643;
+		CMD_ID = 638;
 	}
 
-	int32 retcode = 9;
-	uint64 target_weapon_guid = 10;
-	uint32 old_promote_level = 13;
-	uint32 cur_promote_level = 6;
+	int32 retcode = 11;
+	uint64 target_weapon_guid = 15;
+	uint32 old_promote_level = 5;
+	uint32 cur_promote_level = 2;
 }

@@ -8,8 +8,8 @@ message WidgetGadgetAllDataNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4290;
+		CMD_ID = 4271;
 	}
 
-	repeated WidgetGadgetData widget_gadget_data = 3;
+	repeated WidgetGadgetData widget_gadget_data = 9;
 }

@@ -7,11 +7,11 @@ message MusicGameSettleRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8205;
+		CMD_ID = 8288;
 	}
 
-	int32 retcode = 1;
-	uint32 music_basic_id = 7;
-	bool is_unlock_next_level = 9;
-	bool is_new_record = 8;
+	int32 retcode = 7;
+	uint32 music_basic_id = 9;
+	bool is_unlock_next_level = 1;
+	bool is_new_record = 3;
 }

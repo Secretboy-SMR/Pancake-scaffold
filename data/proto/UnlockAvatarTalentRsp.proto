@@ -7,10 +7,10 @@ message UnlockAvatarTalentRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1033;
+		CMD_ID = 1031;
 	}
 
 	int32 retcode = 2;
-	uint64 avatar_guid = 4;
-	uint32 talent_id = 8;
+	uint64 avatar_guid = 14;
+	uint32 talent_id = 12;
 }

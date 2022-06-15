@@ -4,13 +4,13 @@ syntax = "proto3";
 message DungeonReviseLevelNotify {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 945;
+		CMD_ID = 905;
 	}
 
-	uint32 dungeon_id = 4;
-	uint32 revise_level = 6;
+	uint32 dungeon_id = 2;
+	uint32 revise_level = 11;
 }

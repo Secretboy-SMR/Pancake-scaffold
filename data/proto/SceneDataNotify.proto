@@ -7,8 +7,8 @@ message SceneDataNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3097;
+		CMD_ID = 3117;
 	}
 
-	repeated string level_config_name_list = 1;
+	repeated string level_config_name_list = 2;
 }

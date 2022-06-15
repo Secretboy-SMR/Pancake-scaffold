@@ -7,11 +7,11 @@ message MpPlayOwnerCheckRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1814;
+		CMD_ID = 1812;
 	}
 
-	int32 retcode = 13;
-	uint32 mp_play_id = 2;
-	uint32 wrong_uid = 5;
-	bool is_skip_match = 3;
+	int32 retcode = 1;
+	uint32 mp_play_id = 7;
+	uint32 wrong_uid = 4;
+	bool is_skip_match = 9;
 }

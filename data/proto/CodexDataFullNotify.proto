@@ -11,5 +11,5 @@ message CodexDataFullNotify {
 		CMD_ID = 4201;
 	}
 
-	repeated CodexTypeData type_data_list = 3;
+	repeated CodexTypeData type_data_list = 5;
 }

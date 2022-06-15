@@ -8,9 +8,9 @@ message GetReunionPrivilegeInfoRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5076;
+		CMD_ID = 5096;
 	}
 
-	int32 retcode = 15;
+	int32 retcode = 3;
 	ReunionPrivilegeInfo privilege_info = 12;
 }

@@ -7,8 +7,8 @@ message ServerMessageNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5741;
+		CMD_ID = 5709;
 	}
 
-	uint32 index = 10;
+	uint32 index = 7;
 }

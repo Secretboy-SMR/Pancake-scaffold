@@ -10,17 +10,17 @@ message DungeonChallengeFinishNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 929;
+		CMD_ID = 986;
 	}
 
 	oneof Detail {
 		ChannellerSlabLoopDungeonResultInfo channeller_slab_loop_dungeon_result_info = 101;
 		EffigyChallengeDungeonResultInfo effigy_challenge_dungeon_result_info = 102;
 	}
-	uint32 challenge_index = 4;
-	bool is_success = 12;
-	bool is_new_record = 13;
-	uint32 challenge_record_type = 7;
-	uint32 current_value = 15;
-	map<uint32, StrengthenPointData> strengthen_point_data_map = 6;
+	uint32 challenge_index = 11;
+	bool is_success = 4;
+	bool is_new_record = 2;
+	uint32 challenge_record_type = 10;
+	uint32 current_value = 12;
+	map<uint32, StrengthenPointData> strengthen_point_data_map = 13;
 }

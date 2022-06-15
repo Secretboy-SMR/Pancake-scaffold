@@ -9,9 +9,9 @@ message PlayerInvestigationAllInfoNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1901;
+		CMD_ID = 1905;
 	}
 
-	repeated Investigation investigation_list = 2;
-	repeated InvestigationTarget investigation_target_list = 14;
+	repeated Investigation investigation_list = 10;
+	repeated InvestigationTarget investigation_target_list = 15;
 }

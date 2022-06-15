@@ -7,9 +7,9 @@ message CancelCoopTaskRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1976;
+		CMD_ID = 1996;
 	}
 
-	int32 retcode = 7;
-	uint32 chapter_id = 8;
+	int32 retcode = 15;
+	uint32 chapter_id = 3;
 }

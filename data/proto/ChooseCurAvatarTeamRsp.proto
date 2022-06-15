@@ -7,9 +7,9 @@ message ChooseCurAvatarTeamRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1615;
+		CMD_ID = 1673;
 	}
 
-	int32 retcode = 5;
-	uint32 cur_team_id = 14;
+	int32 retcode = 7;
+	uint32 cur_team_id = 4;
 }

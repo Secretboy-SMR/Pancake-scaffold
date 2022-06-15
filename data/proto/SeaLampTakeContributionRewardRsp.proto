@@ -7,9 +7,9 @@ message SeaLampTakeContributionRewardRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2142;
+		CMD_ID = 2103;
 	}
 
-	int32 retcode = 5;
-	uint32 config_id = 13;
+	int32 retcode = 14;
+	uint32 config_id = 12;
 }

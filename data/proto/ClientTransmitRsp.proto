@@ -8,9 +8,9 @@ message ClientTransmitRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 212;
+		CMD_ID = 259;
 	}
 
-	int32 retcode = 9;
-	TransmitReason reason = 14;
+	int32 retcode = 15;
+	TransmitReason reason = 7;
 }

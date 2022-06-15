@@ -8,7 +8,7 @@ message DataResVersionNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 109;
+		CMD_ID = 125;
 	}
 
 	enum DataResVersionOpType {
@@ -18,12 +18,12 @@ message DataResVersionNotify {
 	}
 
 	uint32 client_data_version = 9;
-	uint32 client_silence_data_version = 2;
-	string client_md5 = 4;
-	string client_silence_md5 = 6;
-	ResVersionConfig res_version_config = 12;
-	string client_version_suffix = 1;
-	string client_silence_version_suffix = 11;
-	bool is_data_need_relogin = 8;
+	uint32 client_silence_data_version = 15;
+	string client_md5 = 6;
+	string client_silence_md5 = 2;
+	ResVersionConfig res_version_config = 8;
+	string client_version_suffix = 4;
+	string client_silence_version_suffix = 3;
+	bool is_data_need_relogin = 10;
 	DataResVersionOpType op_type = 7;
 }

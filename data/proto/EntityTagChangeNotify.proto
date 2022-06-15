@@ -7,10 +7,10 @@ message EntityTagChangeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3192;
+		CMD_ID = 3273;
 	}
 
-	uint32 entity_id = 11;
-	bool is_add = 4;
-	string tag = 6;
+	uint32 entity_id = 8;
+	bool is_add = 13;
+	string tag = 1;
 }

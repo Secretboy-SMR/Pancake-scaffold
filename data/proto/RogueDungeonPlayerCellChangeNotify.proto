@@ -7,9 +7,9 @@ message RogueDungeonPlayerCellChangeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8444;
+		CMD_ID = 8832;
 	}
 
-	uint32 old_cell_id = 1;
+	uint32 old_cell_id = 5;
 	uint32 cell_id = 8;
 }

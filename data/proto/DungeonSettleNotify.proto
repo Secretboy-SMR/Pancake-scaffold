@@ -15,7 +15,7 @@ message DungeonSettleNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 927;
+		CMD_ID = 982;
 	}
 
 	oneof Detail {
@@ -25,12 +25,12 @@ message DungeonSettleNotify {
 		EffigyChallengeDungeonResultInfo effigy_challenge_dungeon_result_info = 104;
 		RoguelikeDungeonSettleInfo roguelike_dungeon_settle_info = 105;
 	}
-	uint32 dungeon_id = 10;
-	bool is_success = 13;
-	repeated uint32 fail_cond_list = 5;
-	map<uint32, ParamList> settle_show = 1;
-	uint32 close_time = 3;
-	map<uint32, StrengthenPointData> strengthen_point_data_map = 9;
-	uint32 result = 12;
-	repeated DungeonSettleExhibitionInfo exhibition_info_list = 4;
+	uint32 dungeon_id = 9;
+	bool is_success = 10;
+	repeated uint32 fail_cond_list = 13;
+	map<uint32, ParamList> settle_show = 11;
+	uint32 close_time = 12;
+	map<uint32, StrengthenPointData> strengthen_point_data_map = 4;
+	uint32 result = 15;
+	repeated DungeonSettleExhibitionInfo exhibition_info_list = 14;
 }

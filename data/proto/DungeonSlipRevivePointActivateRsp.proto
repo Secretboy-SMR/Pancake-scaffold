@@ -7,9 +7,9 @@ message DungeonSlipRevivePointActivateRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 910;
+		CMD_ID = 903;
 	}
 
-	int32 retcode = 14;
-	uint32 slip_revive_point_id = 12;
+	int32 retcode = 3;
+	uint32 slip_revive_point_id = 15;
 }

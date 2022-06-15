@@ -5,12 +5,12 @@ import "EntityMoveInfo.proto";
 message SceneEntitiesMovesReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_IS_RELIABLE = 0;
 		NONE = 0;
+		ENET_IS_RELIABLE = 0;
 		ENET_CHANNEL_ID = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 297;
+		CMD_ID = 240;
 	}
 
-	repeated EntityMoveInfo entity_move_info_list = 10;
+	repeated EntityMoveInfo entity_move_info_list = 14;
 }

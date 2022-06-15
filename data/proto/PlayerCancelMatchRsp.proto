@@ -8,9 +8,9 @@ message PlayerCancelMatchRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4187;
+		CMD_ID = 4178;
 	}
 
-	int32 retcode = 4;
-	MatchType match_type = 9;
+	int32 retcode = 2;
+	MatchType match_type = 8;
 }

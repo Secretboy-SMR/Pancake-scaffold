@@ -5,15 +5,15 @@ import "Vector.proto";
 message CreateVehicleReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 828;
+		CMD_ID = 819;
 	}
 
-	uint32 vehicle_id = 13;
-	uint32 scene_point_id = 1;
-	Vector pos = 7;
-	Vector rot = 10;
+	uint32 vehicle_id = 9;
+	uint32 scene_point_id = 15;
+	Vector pos = 1;
+	Vector rot = 7;
 }

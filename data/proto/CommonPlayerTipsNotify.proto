@@ -7,9 +7,9 @@ message CommonPlayerTipsNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8236;
+		CMD_ID = 8490;
 	}
 
-	repeated string text_map_id_list = 1;
-	uint32 notify_type = 11;
+	repeated string text_map_id_list = 11;
+	uint32 notify_type = 6;
 }

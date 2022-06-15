@@ -6,16 +6,16 @@ import "ItemParam.proto";
 message MiracleRingDeliverItemReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 5203;
+		CMD_ID = 5226;
 	}
 
-	uint32 gadget_entity_id = 6;
-	InterOpType op_type = 10;
-	uint32 gadget_id = 2;
-	repeated uint64 food_weapon_guid_list = 13;
-	repeated ItemParam item_param_list = 1;
+	uint32 gadget_entity_id = 3;
+	InterOpType op_type = 13;
+	uint32 gadget_id = 5;
+	repeated uint64 food_weapon_guid_list = 2;
+	repeated ItemParam item_param_list = 8;
 }

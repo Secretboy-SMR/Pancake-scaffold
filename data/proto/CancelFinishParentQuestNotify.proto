@@ -7,8 +7,8 @@ message CancelFinishParentQuestNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 412;
+		CMD_ID = 459;
 	}
 
-	uint32 parent_quest_id = 4;
+	uint32 parent_quest_id = 8;
 }

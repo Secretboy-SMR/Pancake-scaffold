@@ -7,10 +7,10 @@ message DraftGuestReplyTwiceConfirmRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5490;
+		CMD_ID = 5427;
 	}
 
-	int32 retcode = 5;
-	uint32 draft_id = 6;
-	bool is_agree = 9;
+	int32 retcode = 15;
+	uint32 draft_id = 10;
+	bool is_agree = 11;
 }

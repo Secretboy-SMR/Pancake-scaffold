@@ -8,8 +8,8 @@ message RogueCellUpdateNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8790;
+		CMD_ID = 8022;
 	}
 
-	RogueCellInfo cell_info = 2;
+	RogueCellInfo cell_info = 12;
 }

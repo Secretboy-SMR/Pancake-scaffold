@@ -8,9 +8,9 @@ message HomeResourceTakeFetterExpRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4481;
+		CMD_ID = 4846;
 	}
 
 	int32 retcode = 3;
-	HomeResource fetter_exp = 4;
+	HomeResource fetter_exp = 8;
 }

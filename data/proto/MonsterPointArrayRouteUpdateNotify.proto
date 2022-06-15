@@ -8,9 +8,9 @@ message MonsterPointArrayRouteUpdateNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3457;
+		CMD_ID = 3138;
 	}
 
-	uint32 entity_id = 14;
-	MonsterRoute monster_route = 4;
+	uint32 entity_id = 12;
+	MonsterRoute monster_route = 8;
 }

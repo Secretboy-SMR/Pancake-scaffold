@@ -7,8 +7,8 @@ message AvatarDelNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1701;
+		CMD_ID = 1608;
 	}
 
-	repeated uint64 avatar_guid_list = 10;
+	repeated uint64 avatar_guid_list = 11;
 }

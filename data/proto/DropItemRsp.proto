@@ -8,10 +8,10 @@ message DropItemRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 680;
+		CMD_ID = 655;
 	}
 
-	int32 retcode = 6;
-	StoreType store_type = 10;
-	uint64 guid = 13;
+	int32 retcode = 15;
+	StoreType store_type = 2;
+	uint64 guid = 8;
 }

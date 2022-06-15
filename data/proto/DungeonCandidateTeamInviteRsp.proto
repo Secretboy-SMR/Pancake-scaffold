@@ -10,5 +10,5 @@ message DungeonCandidateTeamInviteRsp {
 		CMD_ID = 922;
 	}
 
-	int32 retcode = 8;
+	int32 retcode = 15;
 }

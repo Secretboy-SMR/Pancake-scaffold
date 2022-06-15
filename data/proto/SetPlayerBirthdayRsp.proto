@@ -8,9 +8,9 @@ message SetPlayerBirthdayRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4017;
+		CMD_ID = 4030;
 	}
 
-	int32 retcode = 13;
-	Birthday birthday = 6;
+	int32 retcode = 12;
+	Birthday birthday = 14;
 }

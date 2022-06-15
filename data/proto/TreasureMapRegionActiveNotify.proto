@@ -7,8 +7,8 @@ message TreasureMapRegionActiveNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2151;
+		CMD_ID = 2133;
 	}
 
-	uint32 active_region_index = 13;
+	uint32 active_region_index = 14;
 }

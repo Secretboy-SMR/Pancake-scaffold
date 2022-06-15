@@ -7,10 +7,10 @@ message GetQuestTalkHistoryRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 463;
+		CMD_ID = 449;
 	}
 
-	int32 retcode = 15;
-	uint32 parent_quest_id = 3;
-	repeated uint32 talk_id_list = 6;
+	int32 retcode = 5;
+	uint32 parent_quest_id = 4;
+	repeated uint32 talk_id_list = 8;
 }

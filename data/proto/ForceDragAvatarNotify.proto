@@ -8,13 +8,13 @@ message ForceDragAvatarNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3334;
+		CMD_ID = 3425;
 	}
 
-	uint32 entity_id = 10;
-	MotionInfo motion_info = 8;
-	uint32 scene_time = 6;
-	uint64 last_move_time_ms = 11;
-	uint64 delta_time_ms = 1;
-	bool is_first_valid = 7;
+	uint32 entity_id = 15;
+	MotionInfo motion_info = 3;
+	uint32 scene_time = 11;
+	uint64 last_move_time_ms = 9;
+	uint64 delta_time_ms = 2;
+	bool is_first_valid = 10;
 }

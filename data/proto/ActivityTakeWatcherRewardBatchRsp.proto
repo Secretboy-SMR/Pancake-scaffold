@@ -8,11 +8,11 @@ message ActivityTakeWatcherRewardBatchRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2184;
+		CMD_ID = 2082;
 	}
 
-	int32 retcode = 14;
-	uint32 activity_id = 12;
-	repeated uint32 watcher_id_list = 13;
-	repeated ItemParam item_list = 7;
+	int32 retcode = 15;
+	uint32 activity_id = 3;
+	repeated uint32 watcher_id_list = 5;
+	repeated ItemParam item_list = 8;
 }

@@ -8,11 +8,11 @@ message ArenaChallengeFinishNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2098;
+		CMD_ID = 2101;
 	}
 
-	uint32 arena_challenge_id = 5;
-	uint32 arena_challenge_level = 11;
+	uint32 arena_challenge_id = 2;
+	uint32 arena_challenge_level = 7;
 	bool is_success = 3;
 	repeated ArenaChallengeChildChallengeInfo child_challenge_list = 4;
 }

@@ -7,9 +7,9 @@ message GetHomeLevelUpRewardRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4774;
+		CMD_ID = 4517;
 	}
 
-	int32 retcode = 3;
-	uint32 level = 14;
+	int32 retcode = 4;
+	uint32 level = 3;
 }

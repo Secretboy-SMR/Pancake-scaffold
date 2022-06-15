@@ -7,9 +7,9 @@ message GalleryBalloonScoreNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5581;
+		CMD_ID = 5541;
 	}
 
 	uint32 gallery_id = 12;
-	map<uint32, uint32> uid_score_map = 4;
+	map<uint32, uint32> uid_score_map = 1;
 }

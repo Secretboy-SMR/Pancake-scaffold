@@ -7,10 +7,10 @@ message ChangeMpTeamAvatarRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1603;
+		CMD_ID = 1617;
 	}
 
 	int32 retcode = 7;
-	repeated uint64 avatar_guid_list = 10;
-	uint64 cur_avatar_guid = 3;
+	repeated uint64 avatar_guid_list = 3;
+	uint64 cur_avatar_guid = 8;
 }

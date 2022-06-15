@@ -8,10 +8,10 @@ message GetCityReputationInfoRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2833;
+		CMD_ID = 2831;
 	}
 
-	int32 retcode = 9;
-	uint32 city_id = 10;
-	CityReputationInfo city_reputation_info = 11;
+	int32 retcode = 10;
+	uint32 city_id = 5;
+	CityReputationInfo city_reputation_info = 8;
 }

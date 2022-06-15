@@ -7,9 +7,9 @@ message PlayerSetOnlyMPWithPSPlayerRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1815;
+		CMD_ID = 1813;
 	}
 
-	int32 retcode = 5;
-	bool is_only = 4;
+	int32 retcode = 4;
+	bool is_only = 6;
 }

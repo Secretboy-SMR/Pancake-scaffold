@@ -7,8 +7,8 @@ message LeaveSceneRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 281;
+		CMD_ID = 241;
 	}
 
-	int32 retcode = 11;
+	int32 retcode = 5;
 }

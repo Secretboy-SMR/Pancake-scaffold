@@ -7,13 +7,13 @@ message SumoDungeonSettleNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8217;
+		CMD_ID = 8426;
 	}
 
-	uint32 stage_id = 5;
-	uint32 difficulty_id = 11;
-	uint32 final_score = 7;
-	bool is_new_record = 1;
-	uint32 kill_monster_num = 14;
-	uint32 kill_elite_monster_num = 12;
+	uint32 stage_id = 6;
+	uint32 difficulty_id = 4;
+	uint32 final_score = 5;
+	bool is_new_record = 2;
+	uint32 kill_monster_num = 8;
+	uint32 kill_elite_monster_num = 1;
 }

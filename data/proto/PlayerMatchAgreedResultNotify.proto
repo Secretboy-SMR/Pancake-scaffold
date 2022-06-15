@@ -8,7 +8,7 @@ message PlayerMatchAgreedResultNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4179;
+		CMD_ID = 4152;
 	}
 
 	enum Reason {
@@ -19,7 +19,7 @@ message PlayerMatchAgreedResultNotify {
 		DATA_VERSION_NOT_LATEST = 4;
 	}
 
-	uint32 target_uid = 7;
-	Reason reason = 12;
-	MatchType match_type = 4;
+	uint32 target_uid = 14;
+	Reason reason = 7;
+	MatchType match_type = 15;
 }

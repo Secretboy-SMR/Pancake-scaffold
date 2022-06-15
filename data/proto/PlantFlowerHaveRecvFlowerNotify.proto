@@ -7,8 +7,8 @@ message PlantFlowerHaveRecvFlowerNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8327;
+		CMD_ID = 8174;
 	}
 
-	uint32 schedule_id = 12;
+	uint32 schedule_id = 8;
 }

@@ -7,8 +7,8 @@ message MechanicusCloseNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3976;
+		CMD_ID = 3917;
 	}
 
-	uint32 mechanicus_id = 9;
+	uint32 mechanicus_id = 12;
 }

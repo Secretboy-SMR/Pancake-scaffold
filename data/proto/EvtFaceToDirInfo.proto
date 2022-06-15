@@ -3,6 +3,6 @@ syntax = "proto3";
 import "Vector.proto";
 
 message EvtFaceToDirInfo {
-	uint32 entity_id = 1;
-	Vector face_dir = 2;
+	uint32 entity_id = 13;
+	Vector face_dir = 15;
 }

@@ -4,13 +4,13 @@ syntax = "proto3";
 message BigTalentPointConvertReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 1076;
+		CMD_ID = 1032;
 	}
 
-	uint64 avatar_guid = 14;
-	repeated uint64 item_guid_list = 5;
+	uint64 avatar_guid = 15;
+	repeated uint64 item_guid_list = 3;
 }

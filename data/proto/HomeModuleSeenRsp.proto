@@ -7,9 +7,9 @@ message HomeModuleSeenRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4783;
+		CMD_ID = 4526;
 	}
 
-	int32 retcode = 8;
-	repeated uint32 seen_module_id_list = 4;
+	int32 retcode = 14;
+	repeated uint32 seen_module_id_list = 12;
 }

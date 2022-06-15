@@ -8,8 +8,8 @@ message GivingRecordNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 126;
+		CMD_ID = 187;
 	}
 
-	repeated GivingRecord giving_record_list = 5;
+	repeated GivingRecord giving_record_list = 13;
 }

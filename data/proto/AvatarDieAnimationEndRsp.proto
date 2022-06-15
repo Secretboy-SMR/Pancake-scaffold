@@ -7,10 +7,10 @@ message AvatarDieAnimationEndRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1754;
+		CMD_ID = 1765;
 	}
 
-	int32 retcode = 13;
-	uint64 die_guid = 4;
-	uint32 skill_id = 8;
+	int32 retcode = 12;
+	uint64 die_guid = 11;
+	uint32 skill_id = 13;
 }

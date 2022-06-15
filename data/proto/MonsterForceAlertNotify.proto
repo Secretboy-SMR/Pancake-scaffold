@@ -7,8 +7,8 @@ message MonsterForceAlertNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 372;
+		CMD_ID = 342;
 	}
 
-	uint32 monster_entity_id = 11;
+	uint32 monster_entity_id = 15;
 }

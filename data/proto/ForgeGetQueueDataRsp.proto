@@ -8,10 +8,10 @@ message ForgeGetQueueDataRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 602;
+		CMD_ID = 628;
 	}
 
-	int32 retcode = 12;
-	uint32 max_queue_num = 15;
-	map<uint32, ForgeQueueData> forge_queue_map = 4;
+	int32 retcode = 15;
+	uint32 max_queue_num = 13;
+	map<uint32, ForgeQueueData> forge_queue_map = 11;
 }

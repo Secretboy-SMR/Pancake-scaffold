@@ -8,10 +8,10 @@ message SummerTimeFloatSignalUpdateNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8288;
+		CMD_ID = 8333;
 	}
 
-	uint32 float_signal_id = 1;
-	Vector position = 11;
-	bool is_transfer_anchor = 4;
+	uint32 float_signal_id = 2;
+	Vector position = 15;
+	bool is_transfer_anchor = 6;
 }

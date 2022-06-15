@@ -7,13 +7,13 @@ message UnlockPersonalLineRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 465;
+		CMD_ID = 472;
 	}
 
 	oneof Param {
 	}
-	int32 retcode = 9;
-	uint32 personal_line_id = 1;
-	uint32 level = 6;
-	uint32 chapter_id = 12;
+	int32 retcode = 7;
+	uint32 personal_line_id = 8;
+	uint32 level = 1;
+	uint32 chapter_id = 15;
 }

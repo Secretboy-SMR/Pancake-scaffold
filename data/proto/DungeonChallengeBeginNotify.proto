@@ -7,13 +7,13 @@ message DungeonChallengeBeginNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 915;
+		CMD_ID = 990;
 	}
 
-	uint32 challenge_id = 9;
-	uint32 challenge_index = 2;
-	repeated uint32 param_list = 1;
-	uint32 group_id = 8;
-	uint32 father_index = 13;
-	repeated uint32 uid_list = 12;
+	uint32 challenge_id = 8;
+	uint32 challenge_index = 11;
+	repeated uint32 param_list = 13;
+	uint32 group_id = 12;
+	uint32 father_index = 6;
+	repeated uint32 uid_list = 9;
 }

@@ -8,9 +8,9 @@ message TowerFloorRecordChangeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2433;
+		CMD_ID = 2431;
 	}
 
-	repeated TowerFloorRecord tower_floor_record_list = 10;
-	bool is_finished_entrance_floor = 8;
+	repeated TowerFloorRecord tower_floor_record_list = 9;
+	bool is_finished_entrance_floor = 1;
 }

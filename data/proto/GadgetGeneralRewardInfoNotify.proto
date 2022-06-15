@@ -8,9 +8,9 @@ message GadgetGeneralRewardInfoNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 823;
+		CMD_ID = 807;
 	}
 
-	uint32 entity_id = 9;
-	GadgetGeneralRewardInfo general_reward_info = 13;
+	uint32 entity_id = 5;
+	GadgetGeneralRewardInfo general_reward_info = 15;
 }

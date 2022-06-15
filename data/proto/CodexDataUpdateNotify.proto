@@ -11,7 +11,7 @@ message CodexDataUpdateNotify {
 		CMD_ID = 4210;
 	}
 
-	CodexType type = 1;
-	uint32 id = 6;
-	uint32 weapon_max_promote_level = 14;
+	CodexType type = 3;
+	uint32 id = 4;
+	uint32 weapon_max_promote_level = 12;
 }

@@ -7,10 +7,10 @@ message DungeonEntryToBeExploreNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3095;
+		CMD_ID = 3414;
 	}
 
-	uint32 dungeon_entry_scene_point_id = 3;
-	uint32 dungeon_entry_config_id = 13;
-	uint32 scene_id = 1;
+	uint32 dungeon_entry_scene_point_id = 14;
+	uint32 dungeon_entry_config_id = 11;
+	uint32 scene_id = 13;
 }

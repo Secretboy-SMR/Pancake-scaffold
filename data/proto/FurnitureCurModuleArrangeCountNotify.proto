@@ -8,8 +8,8 @@ message FurnitureCurModuleArrangeCountNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4770;
+		CMD_ID = 4681;
 	}
 
-	repeated Uint32Pair furniture_arrange_count_list = 2;
+	repeated Uint32Pair furniture_arrange_count_list = 9;
 }

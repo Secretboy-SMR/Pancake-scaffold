@@ -5,13 +5,13 @@ import "BlossomBriefInfo.proto";
 message GetBlossomBriefInfoListRsp {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 2733;
+		CMD_ID = 2731;
 	}
 
-	int32 retcode = 13;
-	repeated BlossomBriefInfo brief_info_list = 12;
+	int32 retcode = 6;
+	repeated BlossomBriefInfo brief_info_list = 10;
 }

@@ -7,7 +7,7 @@ message LuaSetOptionNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 326;
+		CMD_ID = 387;
 	}
 
 	enum LuaOptionType {
@@ -15,6 +15,6 @@ message LuaSetOptionNotify {
 		LUA_OPTION_PLAYER_INPUT = 1;
 	}
 
-	LuaOptionType option_type = 3;
-	string lua_set_param = 11;
+	LuaOptionType option_type = 4;
+	string lua_set_param = 8;
 }

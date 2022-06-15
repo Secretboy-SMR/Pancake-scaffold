@@ -7,10 +7,10 @@ message MpPlayOwnerStartInviteRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1813;
+		CMD_ID = 1827;
 	}
 
-	int32 retcode = 12;
-	uint32 mp_play_id = 5;
-	bool is_skip_match = 13;
+	int32 retcode = 13;
+	uint32 mp_play_id = 14;
+	bool is_skip_match = 6;
 }

@@ -7,7 +7,7 @@ message PlayerApplyEnterMpResultNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1801;
+		CMD_ID = 1804;
 	}
 
 	enum Reason {
@@ -27,8 +27,8 @@ message PlayerApplyEnterMpResultNotify {
 		MAX_PLAYER = 13;
 	}
 
-	uint32 target_uid = 6;
-	bool is_agreed = 1;
-	Reason reason = 3;
+	uint32 target_uid = 7;
+	bool is_agreed = 4;
+	Reason reason = 14;
 	string target_nickname = 5;
 }

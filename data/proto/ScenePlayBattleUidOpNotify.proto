@@ -7,17 +7,17 @@ message ScenePlayBattleUidOpNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4367;
+		CMD_ID = 4380;
 	}
 
-	uint32 play_id = 12;
-	uint32 play_type = 13;
-	uint32 entity_id = 11;
-	repeated uint32 uid_list = 14;
-	uint32 op = 5;
-	string param_str = 3;
+	uint32 play_id = 14;
+	uint32 play_type = 7;
+	uint32 entity_id = 1;
+	repeated uint32 uid_list = 11;
+	uint32 op = 8;
+	string param_str = 12;
 	repeated uint32 param_list = 2;
-	repeated uint32 param_target_list = 15;
-	uint32 param_index = 10;
-	uint32 param_duration = 4;
+	repeated uint32 param_target_list = 6;
+	uint32 param_index = 4;
+	uint32 param_duration = 10;
 }

@@ -5,9 +5,9 @@ message UnlockTransPointRsp {
 	enum CmdId {
 		option allow_alias = true;
 		NONE = 0;
-		ENET_IS_RELIABLE = 1;
 		ENET_CHANNEL_ID = 1;
-		CMD_ID = 3491;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 3101;
 	}
 
 	int32 retcode = 2;

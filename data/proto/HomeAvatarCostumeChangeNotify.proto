@@ -7,9 +7,9 @@ message HomeAvatarCostumeChangeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4475;
+		CMD_ID = 4712;
 	}
 
-	uint32 avatar_id = 8;
-	uint32 costume_id = 2;
+	uint32 avatar_id = 13;
+	uint32 costume_id = 12;
 }

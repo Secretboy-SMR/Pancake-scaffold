@@ -8,13 +8,13 @@ message QuestCreateEntityRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 480;
+		CMD_ID = 455;
 	}
 
-	int32 retcode = 3;
-	uint32 entity_id = 7;
-	CreateEntityInfo entity = 4;
-	uint32 quest_id = 13;
-	bool is_rewind = 9;
-	uint32 parent_quest_id = 10;
+	int32 retcode = 14;
+	uint32 entity_id = 10;
+	CreateEntityInfo entity = 13;
+	uint32 quest_id = 4;
+	bool is_rewind = 15;
+	uint32 parent_quest_id = 11;
 }

@@ -4,14 +4,14 @@ syntax = "proto3";
 message CombineReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 604;
+		CMD_ID = 654;
 	}
 
-	uint32 combine_id = 12;
-	uint32 combine_count = 15;
-	uint64 avatar_guid = 7;
+	uint32 combine_id = 5;
+	uint32 combine_count = 3;
+	uint64 avatar_guid = 8;
 }

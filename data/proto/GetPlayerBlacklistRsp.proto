@@ -8,9 +8,9 @@ message GetPlayerBlacklistRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4065;
+		CMD_ID = 4072;
 	}
 
-	int32 retcode = 6;
-	repeated FriendBrief blacklist = 9;
+	int32 retcode = 12;
+	repeated FriendBrief blacklist = 5;
 }

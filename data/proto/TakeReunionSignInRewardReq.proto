@@ -4,13 +4,13 @@ syntax = "proto3";
 message TakeReunionSignInRewardReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 5053;
+		CMD_ID = 5076;
 	}
 
-	uint32 config_id = 13;
-	uint32 reward_day = 6;
+	uint32 config_id = 14;
+	uint32 reward_day = 15;
 }

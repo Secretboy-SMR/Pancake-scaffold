@@ -8,9 +8,9 @@ message ChatHistoryNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3204;
+		CMD_ID = 3213;
 	}
 
-	uint32 channel_id = 5;
-	repeated ChatInfo chat_info = 13;
+	uint32 channel_id = 10;
+	repeated ChatInfo chat_info = 7;
 }

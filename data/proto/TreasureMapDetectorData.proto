@@ -3,9 +3,9 @@ syntax = "proto3";
 import "Vector.proto";
 
 message TreasureMapDetectorData {
-	uint32 region_id = 1;
+	uint32 region_id = 7;
 	repeated Vector spot_list = 2;
 	Vector center_pos = 3;
-	uint32 radius = 4;
+	uint32 radius = 13;
 	bool is_region_detected = 5;
 }

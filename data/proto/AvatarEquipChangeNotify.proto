@@ -6,17 +6,17 @@ import "SceneReliquaryInfo.proto";
 message AvatarEquipChangeNotify {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 615;
+		CMD_ID = 690;
 	}
 
-	uint64 avatar_guid = 14;
+	uint64 avatar_guid = 1;
 	uint32 equip_type = 2;
 	uint32 item_id = 8;
-	uint64 equip_guid = 12;
-	SceneWeaponInfo weapon = 9;
-	SceneReliquaryInfo reliquary = 3;
+	uint64 equip_guid = 4;
+	SceneWeaponInfo weapon = 13;
+	SceneReliquaryInfo reliquary = 11;
 }

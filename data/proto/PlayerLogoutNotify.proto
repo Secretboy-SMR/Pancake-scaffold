@@ -4,8 +4,8 @@ syntax = "proto3";
 message PlayerLogoutNotify {
 	enum CmdId {
 		NONE = 0;
-		CMD_ID = 200;
+		CMD_ID = 185;
 	}
 
-	int32 retcode = 7;
+	int32 retcode = 4;
 }

@@ -7,11 +7,11 @@ message EnterMechanicusDungeonRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3980;
+		CMD_ID = 3927;
 	}
 
-	int32 retcode = 15;
-	uint32 difficult_level = 2;
-	uint32 dungeon_id = 3;
-	uint32 wrong_uid = 4;
+	int32 retcode = 12;
+	uint32 difficult_level = 5;
+	uint32 dungeon_id = 2;
+	uint32 wrong_uid = 8;
 }

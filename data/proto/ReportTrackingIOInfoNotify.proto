@@ -4,16 +4,16 @@ syntax = "proto3";
 message ReportTrackingIOInfoNotify {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 4103;
+		CMD_ID = 4126;
 	}
 
-	string appid = 4;
-	string deviceid = 10;
-	string mac = 12;
-	string rydevicetype = 6;
-	string client_tz = 11;
+	string appid = 2;
+	string deviceid = 15;
+	string mac = 9;
+	string rydevicetype = 3;
+	string client_tz = 10;
 }

@@ -8,9 +8,9 @@ message AbilityChangeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1180;
+		CMD_ID = 1155;
 	}
 
-	uint32 entity_id = 8;
-	AbilityControlBlock ability_control_block = 9;
+	uint32 entity_id = 3;
+	AbilityControlBlock ability_control_block = 10;
 }

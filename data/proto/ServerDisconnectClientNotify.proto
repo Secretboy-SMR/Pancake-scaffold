@@ -7,8 +7,8 @@ message ServerDisconnectClientNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 157;
+		CMD_ID = 166;
 	}
 
-	uint32 data = 7;
+	uint32 data = 11;
 }

@@ -11,6 +11,6 @@ message GadgetCustomTreeInfoNotify {
 		CMD_ID = 822;
 	}
 
-	uint32 gadget_entity_id = 12;
-	CustomGadgetTreeInfo custom_gadget_tree_info = 7;
+	uint32 gadget_entity_id = 1;
+	CustomGadgetTreeInfo custom_gadget_tree_info = 5;
 }

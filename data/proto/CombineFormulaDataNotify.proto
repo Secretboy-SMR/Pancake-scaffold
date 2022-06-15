@@ -7,9 +7,9 @@ message CombineFormulaDataNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 698;
+		CMD_ID = 688;
 	}
 
-	uint32 combine_id = 5;
-	bool is_locked = 13;
+	uint32 combine_id = 6;
+	bool is_locked = 5;
 }

@@ -7,9 +7,9 @@ message VehicleStaminaNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 803;
+		CMD_ID = 811;
 	}
 
-	uint32 entity_id = 5;
+	uint32 entity_id = 8;
 	float cur_stamina = 4;
 }

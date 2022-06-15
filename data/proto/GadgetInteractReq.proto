@@ -6,16 +6,16 @@ import "ResinCostType.proto";
 message GadgetInteractReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 858;
+		CMD_ID = 809;
 	}
 
-	uint32 gadget_entity_id = 2;
-	InterOpType op_type = 9;
-	uint32 gadget_id = 12;
-	bool is_use_condense_resin = 5;
-	ResinCostType resin_cost_type = 10;
+	uint32 gadget_entity_id = 9;
+	InterOpType op_type = 6;
+	uint32 gadget_id = 14;
+	bool is_use_condense_resin = 15;
+	ResinCostType resin_cost_type = 11;
 }

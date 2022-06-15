@@ -7,9 +7,9 @@ message SceneDestroyEntityRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 272;
+		CMD_ID = 242;
 	}
 
-	int32 retcode = 2;
+	int32 retcode = 13;
 	uint32 entity_id = 3;
 }

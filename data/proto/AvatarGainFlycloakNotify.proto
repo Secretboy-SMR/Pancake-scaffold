@@ -7,8 +7,8 @@ message AvatarGainFlycloakNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1642;
+		CMD_ID = 1615;
 	}
 
-	uint32 flycloak_id = 10;
+	uint32 flycloak_id = 2;
 }

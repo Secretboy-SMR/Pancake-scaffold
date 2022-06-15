@@ -8,7 +8,7 @@ message ScenePlayerSoundNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 225;
+		CMD_ID = 210;
 	}
 
 	enum PlaySoundType {
@@ -17,7 +17,7 @@ message ScenePlayerSoundNotify {
 		PLAY_SOUND_STOP = 2;
 	}
 
-	string sound_name = 1;
-	Vector play_pos = 5;
-	PlaySoundType play_type = 10;
+	string sound_name = 7;
+	Vector play_pos = 13;
+	PlaySoundType play_type = 14;
 }

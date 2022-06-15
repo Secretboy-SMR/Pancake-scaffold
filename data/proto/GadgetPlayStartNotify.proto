@@ -7,10 +7,10 @@ message GadgetPlayStartNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 863;
+		CMD_ID = 849;
 	}
 
-	uint32 play_type = 15;
-	uint32 entity_id = 9;
-	uint32 start_time = 8;
+	uint32 play_type = 4;
+	uint32 entity_id = 5;
+	uint32 start_time = 3;
 }

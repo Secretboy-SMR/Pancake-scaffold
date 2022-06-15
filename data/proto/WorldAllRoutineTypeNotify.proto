@@ -8,8 +8,8 @@ message WorldAllRoutineTypeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3541;
+		CMD_ID = 3509;
 	}
 
-	repeated WorldRoutineTypeInfo world_routine_type_list = 1;
+	repeated WorldRoutineTypeInfo world_routine_type_list = 11;
 }

@@ -7,10 +7,10 @@ message PSPlayerApplyEnterMpRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1808;
+		CMD_ID = 1832;
 	}
 
-	int32 retcode = 12;
-	string target_psn_id = 2;
+	int32 retcode = 8;
+	string target_psn_id = 11;
 	uint32 param = 4;
 }

@@ -7,9 +7,9 @@ message EchoNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 43;
+		CMD_ID = 38;
 	}
 
 	uint32 seq_id = 11;
-	string content = 10;
+	string content = 1;
 }

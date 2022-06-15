@@ -7,10 +7,10 @@ message GalleryFlowerCatchNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5563;
+		CMD_ID = 5549;
 	}
 
-	uint32 gallery_id = 4;
-	uint32 add_score = 13;
-	uint32 cur_score = 11;
+	uint32 gallery_id = 1;
+	uint32 add_score = 7;
+	uint32 cur_score = 4;
 }

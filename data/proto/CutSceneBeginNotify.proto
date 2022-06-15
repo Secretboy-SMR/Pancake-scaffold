@@ -7,9 +7,9 @@ message CutSceneBeginNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 295;
+		CMD_ID = 300;
 	}
 
-	uint32 cutscene_id = 6;
-	bool is_wait_others = 10;
+	uint32 cutscene_id = 9;
+	bool is_wait_others = 11;
 }

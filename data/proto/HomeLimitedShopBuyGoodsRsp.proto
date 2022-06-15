@@ -8,10 +8,10 @@ message HomeLimitedShopBuyGoodsRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4610;
+		CMD_ID = 4722;
 	}
 
-	int32 retcode = 12;
+	int32 retcode = 14;
 	HomeLimitedShopGoods goods = 2;
 	uint32 buy_count = 3;
 	repeated HomeLimitedShopGoods goods_list = 4;

@@ -7,9 +7,9 @@ message HomeChangeEditModeRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4645;
+		CMD_ID = 4885;
 	}
 
-	int32 retcode = 10;
-	bool is_enter_edit_mode = 12;
+	int32 retcode = 11;
+	bool is_enter_edit_mode = 5;
 }

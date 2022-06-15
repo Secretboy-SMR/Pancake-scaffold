@@ -7,10 +7,10 @@ message ShowCommonTipsNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3345;
+		CMD_ID = 3357;
 	}
 
-	string title = 12;
-	string content = 4;
+	string title = 2;
+	string content = 5;
 	uint32 close_time = 3;
 }

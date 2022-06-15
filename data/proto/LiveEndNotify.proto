@@ -7,8 +7,8 @@ message LiveEndNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 875;
+		CMD_ID = 801;
 	}
 
-	uint32 live_id = 15;
+	uint32 live_id = 9;
 }

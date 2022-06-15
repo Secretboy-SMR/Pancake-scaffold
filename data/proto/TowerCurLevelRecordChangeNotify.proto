@@ -8,8 +8,8 @@ message TowerCurLevelRecordChangeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2481;
+		CMD_ID = 2441;
 	}
 
-	TowerCurLevelRecord cur_level_record = 13;
+	TowerCurLevelRecord cur_level_record = 10;
 }

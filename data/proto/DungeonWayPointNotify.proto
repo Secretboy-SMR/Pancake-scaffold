@@ -7,9 +7,9 @@ message DungeonWayPointNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1000;
+		CMD_ID = 985;
 	}
 
-	repeated uint32 active_way_point_list = 13;
-	bool is_add = 9;
+	repeated uint32 active_way_point_list = 7;
+	bool is_add = 5;
 }

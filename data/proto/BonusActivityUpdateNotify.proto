@@ -8,8 +8,8 @@ message BonusActivityUpdateNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2590;
+		CMD_ID = 2527;
 	}
 
-	repeated BonusActivityInfo bonus_activity_info_list = 10;
+	repeated BonusActivityInfo bonus_activity_info_list = 9;
 }

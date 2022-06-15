@@ -10,6 +10,6 @@ message WidgetUseAttachAbilityGroupChangeNotify {
 		CMD_ID = 4295;
 	}
 
-	uint32 material_id = 12;
+	uint32 material_id = 4;
 	bool is_attach = 2;
 }

@@ -5,12 +5,12 @@ import "ProfilePicture.proto";
 message ProfilePictureChangeNotify {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 4026;
+		CMD_ID = 4087;
 	}
 
-	ProfilePicture profile_picture = 3;
+	ProfilePicture profile_picture = 14;
 }

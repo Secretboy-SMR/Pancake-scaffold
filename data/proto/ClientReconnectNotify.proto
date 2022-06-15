@@ -8,8 +8,8 @@ message ClientReconnectNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 90;
+		CMD_ID = 27;
 	}
 
-	ClientReconnectReason reason = 6;
+	ClientReconnectReason reason = 7;
 }

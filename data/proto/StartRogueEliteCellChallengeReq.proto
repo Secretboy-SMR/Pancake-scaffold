@@ -5,14 +5,14 @@ import "RogueEliteCellDifficultyType.proto";
 message StartRogueEliteCellChallengeReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 8546;
+		CMD_ID = 8722;
 	}
 
-	uint32 cell_id = 8;
-	uint32 dungeon_id = 2;
+	uint32 cell_id = 3;
+	uint32 dungeon_id = 7;
 	RogueEliteCellDifficultyType difficulty = 15;
 }

@@ -8,8 +8,8 @@ message GroupLinkAllNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5781;
+		CMD_ID = 5768;
 	}
 
-	repeated GroupLinkBundle bundle_list = 5;
+	repeated GroupLinkBundle bundle_list = 1;
 }

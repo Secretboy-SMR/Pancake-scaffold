@@ -8,8 +8,8 @@ message CoopPointUpdateNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1959;
+		CMD_ID = 1987;
 	}
 
-	CoopPoint coop_point = 14;
+	CoopPoint coop_point = 15;
 }

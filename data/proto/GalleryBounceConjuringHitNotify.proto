@@ -7,10 +7,10 @@ message GalleryBounceConjuringHitNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5541;
+		CMD_ID = 5598;
 	}
 
 	uint32 gallery_id = 10;
-	uint32 add_score = 14;
-	bool is_perfect = 9;
+	uint32 add_score = 6;
+	bool is_perfect = 8;
 }

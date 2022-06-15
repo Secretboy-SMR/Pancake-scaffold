@@ -7,9 +7,9 @@ message MpPlayInviteResultNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1811;
+		CMD_ID = 1806;
 	}
 
-	uint32 mp_play_id = 15;
-	bool all_argee = 10;
+	uint32 mp_play_id = 10;
+	bool all_argee = 15;
 }

@@ -4,12 +4,12 @@ syntax = "proto3";
 message ReceivedTrialAvatarActivityRewardReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 2063;
+		CMD_ID = 2039;
 	}
 
-	uint32 trial_avatar_index_id = 13;
+	uint32 trial_avatar_index_id = 7;
 }

@@ -4,12 +4,12 @@ syntax = "proto3";
 message EquipRoguelikeRuneReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 8987;
+		CMD_ID = 8510;
 	}
 
-	repeated uint32 rune_list = 5;
+	repeated uint32 rune_list = 10;
 }

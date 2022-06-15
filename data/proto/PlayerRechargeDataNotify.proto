@@ -8,9 +8,9 @@ message PlayerRechargeDataNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4137;
+		CMD_ID = 4128;
 	}
 
-	uint32 card_product_remain_days = 9;
-	repeated ProductPriceTier product_price_tier_list = 15;
+	uint32 card_product_remain_days = 14;
+	repeated ProductPriceTier product_price_tier_list = 8;
 }

@@ -7,8 +7,8 @@ message DebugNotify {
 		ZERO = 0;
 		ENET_IS_RELIABLE = 1;
 		ENET_CHANNEL_ID = 2;
-		TARGET_SERVICE = 101;
 		CMD_ID = 101;
+		TARGET_SERVICE = 101;
 	}
 
 	enum Retcode {

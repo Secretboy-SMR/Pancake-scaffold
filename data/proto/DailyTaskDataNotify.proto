@@ -7,10 +7,10 @@ message DailyTaskDataNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 179;
+		CMD_ID = 183;
 	}
 
-	uint32 score_reward_id = 14;
-	bool is_taken_score_reward = 12;
-	uint32 finished_num = 2;
+	uint32 score_reward_id = 4;
+	bool is_taken_score_reward = 15;
+	uint32 finished_num = 7;
 }

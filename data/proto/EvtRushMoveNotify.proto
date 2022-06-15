@@ -6,13 +6,13 @@ import "EvtRushMoveInfo.proto";
 message EvtRushMoveNotify {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 390;
+		CMD_ID = 327;
 	}
 
-	ForwardType forward_type = 5;
-	EvtRushMoveInfo evt_rush_move_info = 12;
+	ForwardType forward_type = 12;
+	EvtRushMoveInfo evt_rush_move_info = 11;
 }

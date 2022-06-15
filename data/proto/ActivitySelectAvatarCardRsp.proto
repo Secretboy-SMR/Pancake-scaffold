@@ -7,10 +7,10 @@ message ActivitySelectAvatarCardRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2176;
+		CMD_ID = 2127;
 	}
 
-	int32 retcode = 4;
+	int32 retcode = 6;
 	uint32 activity_id = 14;
-	uint32 reward_id = 2;
+	uint32 reward_id = 11;
 }

@@ -5,12 +5,12 @@ import "LunchBoxData.proto";
 message SetUpLunchBoxWidgetReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 4254;
+		CMD_ID = 4297;
 	}
 
-	LunchBoxData lunch_box_data = 6;
+	LunchBoxData lunch_box_data = 12;
 }

@@ -7,15 +7,15 @@ message SummerTimeSprintBoatSettleNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8973;
+		CMD_ID = 8117;
 	}
 
-	bool is_success = 5;
-	uint32 left_time = 6;
-	uint32 collect_num = 1;
-	uint32 total_num = 7;
-	uint32 score = 13;
+	bool is_success = 1;
+	uint32 left_time = 7;
+	uint32 collect_num = 13;
+	uint32 total_num = 11;
+	uint32 score = 8;
 	bool is_new_record = 15;
-	uint32 medal_level = 11;
-	uint32 group_id = 9;
+	uint32 medal_level = 9;
+	uint32 group_id = 14;
 }

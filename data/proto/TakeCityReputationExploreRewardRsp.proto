@@ -8,11 +8,11 @@ message TakeCityReputationExploreRewardRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2837;
+		CMD_ID = 2897;
 	}
 
-	int32 retcode = 10;
-	uint32 city_id = 7;
-	repeated uint32 explore_id_list = 4;
-	repeated ItemParam item_list = 8;
+	int32 retcode = 12;
+	uint32 city_id = 11;
+	repeated uint32 explore_id_list = 2;
+	repeated ItemParam item_list = 14;
 }

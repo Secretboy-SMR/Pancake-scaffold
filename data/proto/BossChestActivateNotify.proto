@@ -7,9 +7,9 @@ message BossChestActivateNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 900;
+		CMD_ID = 885;
 	}
 
-	uint32 entity_id = 10;
-	repeated uint32 qualify_uid_list = 5;
+	uint32 entity_id = 9;
+	repeated uint32 qualify_uid_list = 12;
 }

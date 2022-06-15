@@ -8,12 +8,12 @@ message RoguelikeGiveUpRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8902;
+		CMD_ID = 8009;
 	}
 
 	oneof Info {
-		int32 retcode = 3;
+		uint32 stage_id = 3;
 	}
-	uint32 stage_id = 4;
-	RoguelikeDungeonSettleInfo settle_info = 6;
+	int32 retcode = 4;
+	RoguelikeDungeonSettleInfo settle_info = 7;
 }

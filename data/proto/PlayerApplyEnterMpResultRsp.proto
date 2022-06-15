@@ -7,11 +7,11 @@ message PlayerApplyEnterMpResultRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1833;
+		CMD_ID = 1803;
 	}
 
-	int32 retcode = 1;
-	uint32 apply_uid = 11;
-	bool is_agreed = 7;
-	uint32 param = 8;
+	int32 retcode = 6;
+	uint32 apply_uid = 4;
+	bool is_agreed = 12;
+	uint32 param = 9;
 }

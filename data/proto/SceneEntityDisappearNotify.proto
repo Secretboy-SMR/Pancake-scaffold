@@ -8,9 +8,9 @@ message SceneEntityDisappearNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 300;
+		CMD_ID = 285;
 	}
 
-	repeated uint32 entity_list = 15;
-	VisionType disappear_type = 5;
+	repeated uint32 entity_list = 9;
+	VisionType disappear_type = 10;
 }

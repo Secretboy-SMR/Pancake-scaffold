@@ -8,10 +8,10 @@ message PersonalSceneJumpRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 242;
+		CMD_ID = 248;
 	}
 
-	int32 retcode = 9;
-	uint32 dest_scene_id = 12;
-	Vector dest_pos = 1;
+	int32 retcode = 15;
+	uint32 dest_scene_id = 2;
+	Vector dest_pos = 6;
 }

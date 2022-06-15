@@ -9,10 +9,10 @@ message HuntingRevealFinalNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4622;
+		CMD_ID = 4316;
 	}
 
-	HuntingPair hunting_pair = 1;
-	uint32 finished_group_id = 2;
-	Vector final_position = 3;
+	HuntingPair hunting_pair = 6;
+	uint32 finished_group_id = 10;
+	Vector final_position = 8;
 }

@@ -7,8 +7,8 @@ message SetH5ActivityRedDotTimestampReq {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5675;
+		CMD_ID = 5654;
 	}
 
-	uint32 client_red_dot_timestamp = 7;
+	uint32 client_red_dot_timestamp = 14;
 }

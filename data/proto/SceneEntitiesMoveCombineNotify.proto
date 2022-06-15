@@ -8,8 +8,8 @@ message SceneEntitiesMoveCombineNotify {
 		NONE = 0;
 		ENET_IS_RELIABLE = 0;
 		ENET_CHANNEL_ID = 1;
-		CMD_ID = 3459;
+		CMD_ID = 3298;
 	}
 
-	repeated EntityMoveInfo entity_move_info_list = 6;
+	repeated EntityMoveInfo entity_move_info_list = 12;
 }

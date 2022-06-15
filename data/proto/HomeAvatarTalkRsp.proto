@@ -11,6 +11,6 @@ message HomeAvatarTalkRsp {
 		CMD_ID = 4814;
 	}
 
-	int32 retcode = 3;
+	int32 retcode = 2;
 	HomeAvatarTalkFinishInfo avatar_talk_info = 2;
 }

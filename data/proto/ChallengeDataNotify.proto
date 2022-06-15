@@ -7,10 +7,10 @@ message ChallengeDataNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 970;
+		CMD_ID = 963;
 	}
 
 	uint32 challenge_index = 8;
-	uint32 param_index = 15;
-	uint32 value = 2;
+	uint32 param_index = 9;
+	uint32 value = 1;
 }

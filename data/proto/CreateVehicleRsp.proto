@@ -7,10 +7,10 @@ message CreateVehicleRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 874;
+		CMD_ID = 812;
 	}
 
-	int32 retcode = 5;
-	uint32 vehicle_id = 9;
-	uint32 entity_id = 12;
+	int32 retcode = 7;
+	uint32 vehicle_id = 8;
+	uint32 entity_id = 10;
 }

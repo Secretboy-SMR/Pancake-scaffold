@@ -7,9 +7,9 @@ message ChatChannelUpdateNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5040;
+		CMD_ID = 4977;
 	}
 
-	uint32 channel_id = 14;
-	bool is_create = 9;
+	uint32 channel_id = 11;
+	bool is_create = 12;
 }

@@ -8,7 +8,7 @@ message BlessingGetFriendPicListRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2126;
+		CMD_ID = 2128;
 	}
 
 	int32 retcode = 1;

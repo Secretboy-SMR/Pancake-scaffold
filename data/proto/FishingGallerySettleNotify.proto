@@ -8,10 +8,10 @@ message FishingGallerySettleNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8758;
+		CMD_ID = 8896;
 	}
 
-	FishingGallerySettleInfo settle_info = 8;
-	uint32 gallery_id = 4;
-	uint32 level_id = 3;
+	FishingGallerySettleInfo settle_info = 4;
+	uint32 gallery_id = 2;
+	uint32 level_id = 8;
 }

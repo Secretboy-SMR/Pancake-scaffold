@@ -7,7 +7,7 @@ message PlayerApplyEnterHomeResultNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4512;
+		CMD_ID = 4766;
 	}
 
 	enum Reason {
@@ -22,8 +22,8 @@ message PlayerApplyEnterHomeResultNotify {
 		PRIOR_CHECK = 8;
 	}
 
-	uint32 target_uid = 12;
+	uint32 target_uid = 14;
 	bool is_agreed = 15;
-	Reason reason = 9;
-	string target_nickname = 14;
+	Reason reason = 12;
+	string target_nickname = 8;
 }

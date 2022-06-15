@@ -8,11 +8,11 @@ message StartCoopPointRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1984;
+		CMD_ID = 1964;
 	}
 
-	int32 retcode = 3;
-	uint32 coop_point = 5;
-	bool is_start = 12;
-	MainCoop start_main_coop = 9;
+	int32 retcode = 12;
+	uint32 coop_point = 8;
+	bool is_start = 1;
+	MainCoop start_main_coop = 7;
 }

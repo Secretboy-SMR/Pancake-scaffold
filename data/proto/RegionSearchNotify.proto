@@ -8,9 +8,9 @@ message RegionSearchNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5631;
+		CMD_ID = 5618;
 	}
 
-	repeated RegionSearchInfo region_search_list = 6;
-	uint32 uid = 9;
+	repeated RegionSearchInfo region_search_list = 1;
+	uint32 uid = 11;
 }

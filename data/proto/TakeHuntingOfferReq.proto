@@ -5,13 +5,13 @@ import "HuntingPair.proto";
 message TakeHuntingOfferReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 4769;
+		CMD_ID = 4318;
 	}
 
-	uint32 city_id = 1;
+	uint32 city_id = 15;
 	HuntingPair hunting_pair = 2;
 }

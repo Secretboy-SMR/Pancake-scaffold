@@ -7,9 +7,9 @@ message DraftInviteResultNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5463;
+		CMD_ID = 5449;
 	}
 
-	uint32 draft_id = 5;
-	bool is_all_argee = 3;
+	uint32 draft_id = 12;
+	bool is_all_argee = 6;
 }

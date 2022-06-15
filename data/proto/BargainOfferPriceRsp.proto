@@ -8,11 +8,11 @@ message BargainOfferPriceRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 474;
+		CMD_ID = 412;
 	}
 
-	int32 retcode = 9;
-	BargainResultType bargain_result = 2;
-	uint32 result_param = 8;
-	int32 cur_mood = 12;
+	int32 retcode = 2;
+	BargainResultType bargain_result = 3;
+	uint32 result_param = 15;
+	int32 cur_mood = 5;
 }

@@ -7,10 +7,10 @@ message FocusAvatarRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1641;
+		CMD_ID = 1612;
 	}
 
-	int32 retcode = 7;
-	bool is_focus = 1;
-	uint64 avatar_guid = 4;
+	int32 retcode = 1;
+	bool is_focus = 14;
+	uint64 avatar_guid = 9;
 }

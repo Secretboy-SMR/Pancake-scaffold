@@ -8,9 +8,9 @@ message GetAllActivatedBargainDataRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 472;
+		CMD_ID = 442;
 	}
 
-	int32 retcode = 3;
-	repeated BargainSnapshot snapshot_list = 14;
+	int32 retcode = 4;
+	repeated BargainSnapshot snapshot_list = 8;
 }

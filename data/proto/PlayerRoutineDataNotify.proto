@@ -8,8 +8,8 @@ message PlayerRoutineDataNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3531;
+		CMD_ID = 3518;
 	}
 
-	repeated PlayerRoutineInfo routine_info_list = 1;
+	repeated PlayerRoutineInfo routine_info_list = 4;
 }

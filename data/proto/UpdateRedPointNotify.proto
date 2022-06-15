@@ -8,8 +8,8 @@ message UpdateRedPointNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 28;
+		CMD_ID = 19;
 	}
 
-	repeated RedPointData red_point_list = 13;
+	repeated RedPointData red_point_list = 14;
 }

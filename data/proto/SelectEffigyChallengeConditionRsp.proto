@@ -7,11 +7,11 @@ message SelectEffigyChallengeConditionRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2084;
+		CMD_ID = 2062;
 	}
 
-	int32 retcode = 4;
+	int32 retcode = 5;
 	uint32 challenge_id = 2;
 	uint32 difficulty_id = 3;
-	repeated uint32 condition_id_list = 5;
+	repeated uint32 condition_id_list = 4;
 }

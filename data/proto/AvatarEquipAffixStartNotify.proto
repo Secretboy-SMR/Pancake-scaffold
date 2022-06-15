@@ -8,9 +8,9 @@ message AvatarEquipAffixStartNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1629;
+		CMD_ID = 1609;
 	}
 
-	uint64 avatar_guid = 1;
-	AvatarEquipAffixInfo equip_affix_info = 12;
+	uint64 avatar_guid = 10;
+	AvatarEquipAffixInfo equip_affix_info = 13;
 }

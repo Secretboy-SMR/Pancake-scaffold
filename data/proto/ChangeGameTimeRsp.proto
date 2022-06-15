@@ -7,10 +7,10 @@ message ChangeGameTimeRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 127;
+		CMD_ID = 182;
 	}
 
-	int32 retcode = 9;
-	uint32 cur_game_time = 14;
-	uint32 extra_days = 12;
+	int32 retcode = 7;
+	uint32 cur_game_time = 1;
+	uint32 extra_days = 2;
 }

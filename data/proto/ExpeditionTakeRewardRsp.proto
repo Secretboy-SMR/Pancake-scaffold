@@ -7,10 +7,10 @@ message ExpeditionTakeRewardRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2185;
+		CMD_ID = 2122;
 	}
 
-	int32 retcode = 8;
+	int32 retcode = 5;
 	uint32 path_id = 2;
 	bool is_bonus = 3;
 	uint32 reward_level = 4;

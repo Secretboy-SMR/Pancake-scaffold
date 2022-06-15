@@ -8,7 +8,7 @@ message ServerBuffChangeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 320;
+		CMD_ID = 393;
 	}
 
 	enum ServerBuffChangeType {
@@ -16,9 +16,9 @@ message ServerBuffChangeNotify {
 		DEL_SERVER_BUFF = 1;
 	}
 
-	ServerBuffChangeType server_buff_change_type = 3;
-	repeated uint64 avatar_guid_list = 14;
-	repeated ServerBuff server_buff_list = 13;
-	bool is_creature_buff = 7;
-	repeated uint32 entity_id_list = 2;
+	ServerBuffChangeType server_buff_change_type = 4;
+	repeated uint64 avatar_guid_list = 15;
+	repeated ServerBuff server_buff_list = 7;
+	bool is_creature_buff = 3;
+	repeated uint32 entity_id_list = 13;
 }

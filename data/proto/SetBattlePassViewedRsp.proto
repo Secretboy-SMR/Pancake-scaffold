@@ -7,9 +7,9 @@ message SetBattlePassViewedRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2608;
+		CMD_ID = 2632;
 	}
 
-	int32 retcode = 4;
+	int32 retcode = 15;
 	uint32 schedule_id = 10;
 }

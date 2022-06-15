@@ -7,9 +7,9 @@ message PlayerInjectFixNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 198;
+		CMD_ID = 188;
 	}
 
-	uint32 id = 2;
-	bytes inject_fix = 4;
+	uint32 id = 3;
+	bytes inject_fix = 10;
 }

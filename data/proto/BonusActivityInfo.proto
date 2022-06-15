@@ -2,6 +2,6 @@ syntax = "proto3";
 
 
 message BonusActivityInfo {
-	uint32 bonus_activity_id = 1;
-	uint32 state = 2;
+	uint32 bonus_activity_id = 2;
+	uint32 state = 6;
 }

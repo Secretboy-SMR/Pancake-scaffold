@@ -8,10 +8,10 @@ message MaterialDeleteReturnNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 620;
+		CMD_ID = 693;
 	}
 
-	map<uint32, uint32> delete_material_map = 15;
-	map<uint32, uint32> return_item_map = 4;
-	MaterialDeleteReturnType type = 13;
+	map<uint32, uint32> delete_material_map = 7;
+	map<uint32, uint32> return_item_map = 10;
+	MaterialDeleteReturnType type = 5;
 }

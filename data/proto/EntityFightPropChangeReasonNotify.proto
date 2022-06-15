@@ -10,14 +10,14 @@ message EntityFightPropChangeReasonNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1300;
+		CMD_ID = 1285;
 	}
 
-	uint32 entity_id = 14;
-	uint32 prop_type = 11;
-	float prop_delta = 6;
-	PropChangeReason reason = 1;
-	repeated uint32 param_list = 13;
-	ChangHpReason change_hp_reason = 2;
+	uint32 entity_id = 11;
+	uint32 prop_type = 6;
+	float prop_delta = 9;
+	PropChangeReason reason = 5;
+	repeated uint32 param_list = 10;
+	ChangHpReason change_hp_reason = 12;
 	ChangeEnergyReason change_energy_reson = 4;
 }

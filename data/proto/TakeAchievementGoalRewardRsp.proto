@@ -8,10 +8,10 @@ message TakeAchievementGoalRewardRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2683;
+		CMD_ID = 2653;
 	}
 
-	int32 retcode = 1;
-	repeated uint32 id_list = 10;
-	repeated ItemParam item_list = 9;
+	int32 retcode = 4;
+	repeated uint32 id_list = 14;
+	repeated ItemParam item_list = 7;
 }

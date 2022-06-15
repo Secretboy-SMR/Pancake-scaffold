@@ -8,9 +8,9 @@ message OpActivityStateNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2558;
+		CMD_ID = 2509;
 	}
 
-	repeated OpActivityTagBriefInfo opened_op_activity_info_list = 10;
-	repeated uint32 finished_bonus_activity_id_list = 11;
+	repeated OpActivityTagBriefInfo opened_op_activity_info_list = 3;
+	repeated uint32 finished_bonus_activity_id_list = 10;
 }

@@ -4,14 +4,14 @@ syntax = "proto3";
 message ChannellerSlabLoopDungeonSelectConditionReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 8606;
+		CMD_ID = 8383;
 	}
 
-	uint32 dungeon_index = 7;
-	uint32 difficulty_id = 9;
-	repeated uint32 condition_id_list = 14;
+	uint32 dungeon_index = 4;
+	uint32 difficulty_id = 13;
+	repeated uint32 condition_id_list = 12;
 }

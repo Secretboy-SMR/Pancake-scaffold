@@ -2,6 +2,6 @@ syntax = "proto3";
 
 
 message SceneGalleryBrokenFloorInfo {
-	map<uint32, uint32> fall_count_map = 1;
-	uint32 end_time = 2;
+	map<uint32, uint32> fall_count_map = 12;
+	uint32 end_time = 1;
 }

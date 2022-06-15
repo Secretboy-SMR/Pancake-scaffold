@@ -5,13 +5,13 @@ import "ForgeQueueManipulateType.proto";
 message ForgeQueueManipulateReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 612;
+		CMD_ID = 659;
 	}
 
-	uint32 forge_queue_id = 1;
-	ForgeQueueManipulateType manipulate_type = 12;
+	uint32 forge_queue_id = 11;
+	ForgeQueueManipulateType manipulate_type = 7;
 }

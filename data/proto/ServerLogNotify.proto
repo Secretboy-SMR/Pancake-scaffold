@@ -7,12 +7,12 @@ message ServerLogNotify {
 	enum CmdId {
 		option allow_alias = true;
 		NONE = 0;
-		ENET_IS_RELIABLE = 1;
 		ENET_CHANNEL_ID = 1;
-		CMD_ID = 80;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 55;
 	}
 
-	ServerLogType log_type = 11;
-	ServerLogLevel log_level = 14;
-	string server_log = 13;
+	ServerLogType log_type = 12;
+	ServerLogLevel log_level = 11;
+	string server_log = 4;
 }

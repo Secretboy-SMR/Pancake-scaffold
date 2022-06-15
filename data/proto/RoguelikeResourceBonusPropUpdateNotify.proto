@@ -7,8 +7,8 @@ message RoguelikeResourceBonusPropUpdateNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8619;
+		CMD_ID = 8823;
 	}
 
-	float bonus_resource_prop = 13;
+	float bonus_resource_prop = 8;
 }

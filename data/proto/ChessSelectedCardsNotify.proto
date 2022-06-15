@@ -8,8 +8,8 @@ message ChessSelectedCardsNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5369;
+		CMD_ID = 5353;
 	}
 
-	repeated ChessCardInfo selected_card_info_list = 8;
+	repeated ChessCardInfo selected_card_info_list = 12;
 }

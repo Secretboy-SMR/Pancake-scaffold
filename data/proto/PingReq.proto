@@ -4,16 +4,16 @@ syntax = "proto3";
 message PingReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 76;
+		CMD_ID = 32;
 	}
 
-	uint32 seq = 5;
-	uint32 client_time = 12;
-	bytes sc_data = 15;
-	float ue_time = 9;
-	double total_tick_time = 2;
+	uint32 seq = 2;
+	uint32 client_time = 14;
+	bytes sc_data = 11;
+	float ue_time = 15;
+	double total_tick_time = 12;
 }

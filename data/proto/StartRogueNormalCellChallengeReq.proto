@@ -4,13 +4,13 @@ syntax = "proto3";
 message StartRogueNormalCellChallengeReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 8883;
+		CMD_ID = 8456;
 	}
 
-	uint32 cell_id = 7;
-	uint32 dungeon_id = 3;
+	uint32 cell_id = 4;
+	uint32 dungeon_id = 2;
 }

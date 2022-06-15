@@ -7,9 +7,9 @@ message MusicGameStartRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8004;
+		CMD_ID = 8101;
 	}
 
-	int32 retcode = 11;
-	uint32 music_basic_id = 8;
+	int32 retcode = 5;
+	uint32 music_basic_id = 14;
 }

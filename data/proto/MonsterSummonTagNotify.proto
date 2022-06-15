@@ -7,9 +7,9 @@ message MonsterSummonTagNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1358;
+		CMD_ID = 1309;
 	}
 
-	uint32 monster_entity_id = 13;
-	map<uint32, uint32> summon_tag_map = 9;
+	uint32 monster_entity_id = 6;
+	map<uint32, uint32> summon_tag_map = 11;
 }

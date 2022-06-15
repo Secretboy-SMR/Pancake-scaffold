@@ -7,8 +7,8 @@ message WatcherAllDataNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2258;
+		CMD_ID = 2209;
 	}
 
-	repeated uint32 watcher_list = 2;
+	repeated uint32 watcher_list = 9;
 }

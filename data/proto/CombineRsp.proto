@@ -8,16 +8,16 @@ message CombineRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 601;
+		CMD_ID = 646;
 	}
 
-	int32 retcode = 6;
-	uint32 combine_id = 4;
-	uint32 combine_count = 7;
-	uint64 avatar_guid = 9;
-	repeated ItemParam cost_item_list = 11;
-	repeated ItemParam result_item_list = 14;
-	repeated ItemParam total_random_item_list = 8;
-	repeated ItemParam total_return_item_list = 15;
-	repeated ItemParam total_extra_item_list = 1;
+	int32 retcode = 13;
+	uint32 combine_id = 12;
+	uint32 combine_count = 6;
+	uint64 avatar_guid = 15;
+	repeated ItemParam cost_item_list = 10;
+	repeated ItemParam result_item_list = 2;
+	repeated ItemParam total_random_item_list = 9;
+	repeated ItemParam total_return_item_list = 4;
+	repeated ItemParam total_extra_item_list = 8;
 }

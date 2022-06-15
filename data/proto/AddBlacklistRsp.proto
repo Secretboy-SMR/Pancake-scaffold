@@ -8,9 +8,9 @@ message AddBlacklistRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4054;
+		CMD_ID = 4020;
 	}
 
-	int32 retcode = 8;
-	FriendBrief target_friend_brief = 13;
+	int32 retcode = 3;
+	FriendBrief target_friend_brief = 6;
 }

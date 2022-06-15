@@ -7,10 +7,10 @@ message SeaLampFlyLampRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2117;
+		CMD_ID = 2019;
 	}
 
-	int32 retcode = 15;
-	uint32 item_id = 3;
-	uint32 item_num = 8;
+	int32 retcode = 7;
+	uint32 item_id = 5;
+	uint32 item_num = 4;
 }

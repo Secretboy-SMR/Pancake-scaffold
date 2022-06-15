@@ -7,7 +7,7 @@ message OtherPlayerEnterHomeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4862;
+		CMD_ID = 4609;
 	}
 
 	enum Reason {
@@ -17,5 +17,5 @@ message OtherPlayerEnterHomeNotify {
 	}
 
 	string nickname = 10;
-	Reason reason = 2;
+	Reason reason = 1;
 }

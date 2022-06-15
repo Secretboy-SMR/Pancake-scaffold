@@ -8,10 +8,10 @@ message GetSceneNpcPositionRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 576;
+		CMD_ID = 532;
 	}
 
 	int32 retcode = 9;
-	uint32 scene_id = 11;
-	repeated NpcPositionInfo npc_info_list = 12;
+	uint32 scene_id = 15;
+	repeated NpcPositionInfo npc_info_list = 2;
 }

@@ -8,7 +8,7 @@ message RoguelikeRuneRecordUpdateNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8663;
+		CMD_ID = 8497;
 	}
 
 	repeated RoguelikeRuneRecord rune_record_list = 7;

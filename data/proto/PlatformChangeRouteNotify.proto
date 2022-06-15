@@ -8,10 +8,10 @@ message PlatformChangeRouteNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 245;
+		CMD_ID = 205;
 	}
 
-	uint32 entity_id = 5;
-	PlatformInfo platform = 14;
-	uint32 scene_time = 7;
+	uint32 entity_id = 6;
+	PlatformInfo platform = 12;
+	uint32 scene_time = 15;
 }

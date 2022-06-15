@@ -7,9 +7,9 @@ message RedeemLegendaryKeyRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 402;
+		CMD_ID = 428;
 	}
 
-	int32 retcode = 14;
-	uint32 legendary_key_count = 9;
+	int32 retcode = 13;
+	uint32 legendary_key_count = 10;
 }

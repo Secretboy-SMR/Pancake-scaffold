@@ -5,13 +5,13 @@ import "ForgeQueueData.proto";
 message ForgeQueueDataNotify {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 611;
+		CMD_ID = 633;
 	}
 
-	map<uint32, ForgeQueueData> forge_queue_map = 9;
-	repeated uint32 removed_forge_queue_list = 3;
+	map<uint32, ForgeQueueData> forge_queue_map = 14;
+	repeated uint32 removed_forge_queue_list = 8;
 }

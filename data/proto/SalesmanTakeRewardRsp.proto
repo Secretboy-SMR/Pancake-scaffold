@@ -7,11 +7,11 @@ message SalesmanTakeRewardRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2110;
+		CMD_ID = 2118;
 	}
 
-	int32 retcode = 2;
-	uint32 schedule_id = 5;
+	int32 retcode = 5;
+	uint32 schedule_id = 2;
 	uint32 reward_id = 3;
 	uint32 position = 4;
 }

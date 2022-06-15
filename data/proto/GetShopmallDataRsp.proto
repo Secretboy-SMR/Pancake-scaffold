@@ -7,9 +7,9 @@ message GetShopmallDataRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 735;
+		CMD_ID = 717;
 	}
 
-	int32 retcode = 9;
-	repeated uint32 shop_type_list = 11;
+	int32 retcode = 4;
+	repeated uint32 shop_type_list = 15;
 }

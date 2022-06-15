@@ -8,11 +8,11 @@ message SeaLampFlyLampNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2070;
+		CMD_ID = 2051;
 	}
 
-	uint32 item_id = 5;
-	uint32 item_num = 6;
-	Vector pos = 8;
-	int32 param = 7;
+	uint32 item_id = 4;
+	uint32 item_num = 2;
+	Vector pos = 13;
+	int32 param = 6;
 }

@@ -9,9 +9,9 @@ message ShowMessageNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 83;
+		CMD_ID = 37;
 	}
 
-	SvrMsgId msg_id = 5;
-	repeated MsgParam params = 8;
+	SvrMsgId msg_id = 1;
+	repeated MsgParam params = 15;
 }

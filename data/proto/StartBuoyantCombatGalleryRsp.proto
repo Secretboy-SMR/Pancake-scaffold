@@ -7,10 +7,10 @@ message StartBuoyantCombatGalleryRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8517;
+		CMD_ID = 8364;
 	}
 
-	int32 retcode = 13;
-	uint32 gallery_id = 14;
-	uint32 gallery_level = 4;
+	int32 retcode = 7;
+	uint32 gallery_id = 8;
+	uint32 gallery_level = 9;
 }

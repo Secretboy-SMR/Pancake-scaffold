@@ -7,8 +7,8 @@ message EchoShellUpdateNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8729;
+		CMD_ID = 8077;
 	}
 
-	uint32 shell_id = 15;
+	uint32 shell_id = 8;
 }

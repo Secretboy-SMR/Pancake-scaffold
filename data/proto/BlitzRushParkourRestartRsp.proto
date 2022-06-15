@@ -7,10 +7,10 @@ message BlitzRushParkourRestartRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8340;
+		CMD_ID = 8943;
 	}
 
-	int32 retcode = 6;
-	uint32 schedule_id = 9;
-	uint32 group_id = 5;
+	int32 retcode = 9;
+	uint32 schedule_id = 10;
+	uint32 group_id = 13;
 }

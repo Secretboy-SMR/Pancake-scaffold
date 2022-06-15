@@ -8,12 +8,12 @@ message BuyGoodsRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 783;
+		CMD_ID = 737;
 	}
 
-	int32 retcode = 13;
-	uint32 shop_type = 14;
-	ShopGoods goods = 3;
-	uint32 buy_count = 11;
+	int32 retcode = 15;
+	uint32 shop_type = 12;
+	ShopGoods goods = 13;
+	uint32 buy_count = 8;
 	repeated ShopGoods goods_list = 1;
 }

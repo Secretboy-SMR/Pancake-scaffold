@@ -8,10 +8,10 @@ message PlantFlowerAcceptAllGiveFlowerRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8539;
+		CMD_ID = 8831;
 	}
 
-	int32 retcode = 6;
-	uint32 schedule_id = 9;
-	repeated PlantFlowerAcceptFlowerResultInfo accept_flower_result_info_list = 12;
+	int32 retcode = 1;
+	uint32 schedule_id = 6;
+	repeated PlantFlowerAcceptFlowerResultInfo accept_flower_result_info_list = 2;
 }

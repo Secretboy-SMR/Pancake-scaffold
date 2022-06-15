@@ -7,9 +7,9 @@ message TowerDailyRewardProgressChangeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2483;
+		CMD_ID = 2437;
 	}
 
-	uint32 daily_floor_id = 10;
-	uint32 daily_level_index = 2;
+	uint32 daily_floor_id = 13;
+	uint32 daily_level_index = 3;
 }

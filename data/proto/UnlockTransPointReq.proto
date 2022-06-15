@@ -8,9 +8,9 @@ message UnlockTransPointReq {
 		ENET_CHANNEL_ID = 1;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 3048;
+		CMD_ID = 3228;
 	}
 
-	uint32 scene_id = 3;
-	uint32 point_id = 11;
+	uint32 scene_id = 13;
+	uint32 point_id = 4;
 }

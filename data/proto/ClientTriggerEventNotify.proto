@@ -5,13 +5,13 @@ import "EventTriggerType.proto";
 message ClientTriggerEventNotify {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 123;
+		CMD_ID = 107;
 	}
 
-	EventTriggerType event_type = 1;
-	uint32 force_id = 9;
+	EventTriggerType event_type = 10;
+	uint32 force_id = 4;
 }

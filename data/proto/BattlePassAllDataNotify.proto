@@ -9,10 +9,10 @@ message BattlePassAllDataNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2631;
+		CMD_ID = 2618;
 	}
 
-	bool have_cur_schedule = 10;
-	BattlePassSchedule cur_schedule = 3;
-	repeated BattlePassMission mission_list = 15;
+	bool have_cur_schedule = 11;
+	BattlePassSchedule cur_schedule = 10;
+	repeated BattlePassMission mission_list = 1;
 }

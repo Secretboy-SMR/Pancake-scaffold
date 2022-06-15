@@ -8,8 +8,8 @@ message OpActivityDataNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5181;
+		CMD_ID = 5141;
 	}
 
-	repeated OpActivityInfo op_activity_info_list = 11;
+	repeated OpActivityInfo op_activity_info_list = 15;
 }

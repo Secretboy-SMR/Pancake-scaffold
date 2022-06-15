@@ -7,9 +7,9 @@ message DigActivityChangeGadgetStateRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8941;
+		CMD_ID = 8851;
 	}
 
-	int32 retcode = 12;
-	uint32 entity_id = 10;
+	int32 retcode = 4;
+	uint32 entity_id = 13;
 }

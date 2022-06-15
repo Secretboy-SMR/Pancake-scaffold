@@ -9,12 +9,12 @@ message MiracleRingDeliverItemRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5204;
+		CMD_ID = 5247;
 	}
 
-	int32 retcode = 2;
-	uint32 gadget_entity_id = 11;
-	InteractType interact_type = 14;
-	InterOpType op_type = 4;
-	uint32 gadget_id = 5;
+	int32 retcode = 1;
+	uint32 gadget_entity_id = 12;
+	InteractType interact_type = 8;
+	InterOpType op_type = 5;
+	uint32 gadget_id = 15;
 }

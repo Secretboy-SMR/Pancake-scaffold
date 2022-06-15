@@ -7,11 +7,11 @@ message ProudSkillChangeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1080;
+		CMD_ID = 1055;
 	}
 
-	uint64 avatar_guid = 7;
-	uint32 entity_id = 10;
-	uint32 skill_depot_id = 9;
+	uint64 avatar_guid = 12;
+	uint32 entity_id = 11;
+	uint32 skill_depot_id = 7;
 	repeated uint32 proud_skill_list = 4;
 }

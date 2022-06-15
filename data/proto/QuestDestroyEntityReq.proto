@@ -4,14 +4,14 @@ syntax = "proto3";
 message QuestDestroyEntityReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 490;
+		CMD_ID = 427;
 	}
 
-	uint32 entity_id = 14;
-	uint32 quest_id = 10;
-	uint32 scene_id = 12;
+	uint32 entity_id = 8;
+	uint32 quest_id = 2;
+	uint32 scene_id = 6;
 }

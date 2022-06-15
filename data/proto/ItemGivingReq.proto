@@ -5,14 +5,14 @@ import "ItemParam.proto";
 message ItemGivingReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 121;
+		CMD_ID = 178;
 	}
 
-	uint32 giving_id = 8;
-	repeated ItemParam item_param_list = 1;
-	map<uint64, uint32> item_guid_count_map = 12;
+	uint32 giving_id = 14;
+	repeated ItemParam item_param_list = 10;
+	map<uint64, uint32> item_guid_count_map = 6;
 }

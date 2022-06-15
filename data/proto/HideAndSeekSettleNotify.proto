@@ -9,7 +9,7 @@ message HideAndSeekSettleNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5387;
+		CMD_ID = 5334;
 	}
 
 	enum SettleReason {
@@ -18,12 +18,12 @@ message HideAndSeekSettleNotify {
 		SETTLE_PLAYER_QUIT = 2;
 	}
 
-	uint32 play_index = 11;
-	uint32 stage_type = 4;
-	uint32 cost_time = 6;
-	repeated uint32 winner_list = 1;
-	SettleReason reason = 13;
-	repeated ExhibitionDisplayInfo score_list = 7;
+	uint32 play_index = 1;
+	uint32 stage_type = 14;
+	uint32 cost_time = 2;
+	repeated uint32 winner_list = 5;
+	SettleReason reason = 3;
+	repeated ExhibitionDisplayInfo score_list = 15;
 	repeated HideAndSeekSettleInfo settle_info_list = 12;
 	bool is_record_score = 10;
 }

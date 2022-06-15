@@ -8,9 +8,9 @@ message GetChatEmojiCollectionRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4025;
+		CMD_ID = 4010;
 	}
 
-	int32 retcode = 12;
-	ChatEmojiCollectionData chat_emoji_collection_data = 2;
+	int32 retcode = 13;
+	ChatEmojiCollectionData chat_emoji_collection_data = 10;
 }

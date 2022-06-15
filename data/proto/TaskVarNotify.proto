@@ -8,7 +8,7 @@ message TaskVarNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 167;
+		CMD_ID = 191;
 	}
 
 	repeated TaskVar task_var_list = 1;

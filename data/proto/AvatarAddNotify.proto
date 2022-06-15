@@ -8,9 +8,9 @@ message AvatarAddNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1646;
+		CMD_ID = 1757;
 	}
 
-	AvatarInfo avatar = 1;
-	bool is_in_team = 14;
+	AvatarInfo avatar = 11;
+	bool is_in_team = 15;
 }

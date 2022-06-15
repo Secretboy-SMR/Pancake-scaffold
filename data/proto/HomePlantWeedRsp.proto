@@ -7,8 +7,8 @@ message HomePlantWeedRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4531;
+		CMD_ID = 4782;
 	}
 
-	int32 retcode = 4;
+	int32 retcode = 3;
 }

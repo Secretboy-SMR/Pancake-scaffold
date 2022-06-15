@@ -7,9 +7,9 @@ message QuestUpdateQuestTimeVarNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 473;
+		CMD_ID = 484;
 	}
 
-	uint32 parent_quest_id = 2;
-	map<uint32, uint32> time_var_map = 13;
+	uint32 parent_quest_id = 3;
+	map<uint32, uint32> time_var_map = 11;
 }

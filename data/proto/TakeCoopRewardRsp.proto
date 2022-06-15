@@ -7,9 +7,9 @@ message TakeCoopRewardRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1978;
+		CMD_ID = 1965;
 	}
 
-	int32 retcode = 3;
-	uint32 reward_config_id = 7;
+	int32 retcode = 6;
+	uint32 reward_config_id = 8;
 }

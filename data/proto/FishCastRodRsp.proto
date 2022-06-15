@@ -7,8 +7,8 @@ message FishCastRodRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5833;
+		CMD_ID = 5803;
 	}
 
-	int32 retcode = 5;
+	int32 retcode = 7;
 }

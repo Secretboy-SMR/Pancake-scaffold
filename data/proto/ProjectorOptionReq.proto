@@ -4,11 +4,11 @@ syntax = "proto3";
 message ProjectorOptionReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 868;
+		CMD_ID = 813;
 	}
 
 	enum ProjectorOpType {
@@ -17,6 +17,6 @@ message ProjectorOptionReq {
 		PROJECTOR_OP_DESTROY = 2;
 	}
 
-	uint32 op_type = 5;
-	uint32 entity_id = 7;
+	uint32 op_type = 8;
+	uint32 entity_id = 4;
 }

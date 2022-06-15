@@ -8,8 +8,8 @@ message AllMarkPointNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3144;
+		CMD_ID = 3195;
 	}
 
-	repeated MapMarkPoint mark_list = 12;
+	repeated MapMarkPoint mark_list = 4;
 }

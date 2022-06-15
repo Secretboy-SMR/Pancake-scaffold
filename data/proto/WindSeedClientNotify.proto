@@ -8,26 +8,26 @@ message WindSeedClientNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1127;
+		CMD_ID = 1182;
 	}
 
 	message RefreshNotify {
-		uint32 refresh_num = 1;
+		uint32 refresh_num = 14;
 	}
 	message AddWindBulletNotify {
-		uint32 seed_entity_id = 1;
-		Vector seed_pos = 2;
-		uint32 catch_player_uid = 3;
+		uint32 seed_entity_id = 15;
+		Vector seed_pos = 13;
+		uint32 catch_player_uid = 14;
 	}
 	message AreaNotify {
 		uint32 area_id = 1;
-		bytes area_code = 2;
-		uint32 area_type = 3;
+		bytes area_code = 4;
+		uint32 area_type = 8;
 	}
 
 	oneof Notify {
+		AddWindBulletNotify add_wind_bullet_notify = 1;
 	}
-	RefreshNotify refresh_notify = 15;
-	AddWindBulletNotify add_wind_bullet_notify = 14;
-	AreaNotify area_notify = 11;
+	RefreshNotify refresh_notify = 9;
+	AreaNotify area_notify = 15;
 }

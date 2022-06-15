@@ -7,11 +7,11 @@ message DungeonInterruptChallengeRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 984;
+		CMD_ID = 902;
 	}
 
-	int32 retcode = 5;
-	uint32 challenge_id = 6;
-	uint32 challenge_index = 12;
-	uint32 group_id = 3;
+	int32 retcode = 12;
+	uint32 challenge_id = 3;
+	uint32 challenge_index = 6;
+	uint32 group_id = 10;
 }

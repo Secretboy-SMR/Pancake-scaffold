@@ -8,9 +8,9 @@ message TakeCompoundOutputRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 111;
+		CMD_ID = 133;
 	}
 
-	int32 retcode = 4;
-	repeated ItemParam item_list = 9;
+	int32 retcode = 12;
+	repeated ItemParam item_list = 7;
 }

@@ -5,14 +5,14 @@ import "ShopGoods.proto";
 message BuyGoodsReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 781;
+		CMD_ID = 741;
 	}
 
-	uint32 shop_type = 13;
-	ShopGoods goods = 15;
-	uint32 buy_count = 1;
+	uint32 shop_type = 15;
+	ShopGoods goods = 13;
+	uint32 buy_count = 6;
 }

@@ -7,9 +7,9 @@ message PushTipsReadFinishRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2228;
+		CMD_ID = 2219;
 	}
 
-	int32 retcode = 9;
-	uint32 push_tips_id = 10;
+	int32 retcode = 8;
+	uint32 push_tips_id = 13;
 }

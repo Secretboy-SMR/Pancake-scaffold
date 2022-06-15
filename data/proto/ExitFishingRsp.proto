@@ -7,8 +7,8 @@ message ExitFishingRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5814;
+		CMD_ID = 5812;
 	}
 
-	int32 retcode = 5;
+	int32 retcode = 11;
 }

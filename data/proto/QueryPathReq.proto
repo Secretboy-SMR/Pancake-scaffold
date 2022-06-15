@@ -7,11 +7,11 @@ import "Vector3Int.proto";
 message QueryPathReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 2358;
+		CMD_ID = 2309;
 	}
 
 	enum OptionType {
@@ -20,12 +20,12 @@ message QueryPathReq {
 		OPTION_FIRST_CAN_GO = 2;
 	}
 
-	OptionType query_type = 11;
-	int32 query_id = 2;
-	uint32 scene_id = 4;
-	Vector source_pos = 3;
-	repeated Vector destination_pos = 6;
-	QueryFilter filter = 13;
-	Vector3Int destination_extend = 15;
-	Vector3Int source_extend = 14;
+	OptionType query_type = 9;
+	int32 query_id = 4;
+	uint32 scene_id = 8;
+	Vector source_pos = 14;
+	repeated Vector destination_pos = 11;
+	QueryFilter filter = 5;
+	Vector3Int destination_extend = 7;
+	Vector3Int source_extend = 15;
 }

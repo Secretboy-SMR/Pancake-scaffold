@@ -7,10 +7,10 @@ message StartRogueNormalCellChallengeRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8476;
+		CMD_ID = 8156;
 	}
 
-	int32 retcode = 7;
+	int32 retcode = 5;
 	uint32 cell_id = 6;
-	uint32 dungeon_id = 3;
+	uint32 dungeon_id = 13;
 }

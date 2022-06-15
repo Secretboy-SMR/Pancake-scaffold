@@ -5,15 +5,15 @@ import "MotionInfo.proto";
 message SceneEntityMoveReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_IS_RELIABLE = 0;
 		NONE = 0;
+		ENET_IS_RELIABLE = 0;
 		ENET_CHANNEL_ID = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 218;
+		CMD_ID = 235;
 	}
 
-	uint32 entity_id = 11;
-	MotionInfo motion_info = 6;
-	uint32 scene_time = 12;
-	uint32 reliable_seq = 10;
+	uint32 entity_id = 15;
+	MotionInfo motion_info = 1;
+	uint32 scene_time = 3;
+	uint32 reliable_seq = 9;
 }

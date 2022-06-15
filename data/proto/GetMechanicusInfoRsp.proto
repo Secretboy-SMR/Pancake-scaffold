@@ -8,9 +8,9 @@ message GetMechanicusInfoRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3958;
+		CMD_ID = 3931;
 	}
 
-	int32 retcode = 1;
-	MechanicusInfo mechanicus_info = 2;
+	int32 retcode = 7;
+	MechanicusInfo mechanicus_info = 12;
 }

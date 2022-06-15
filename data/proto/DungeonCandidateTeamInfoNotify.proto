@@ -9,12 +9,12 @@ message DungeonCandidateTeamInfoNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 974;
+		CMD_ID = 912;
 	}
 
-	uint32 dungeon_id = 9;
-	repeated DungeonCandidateTeamAvatar avatar_list = 14;
+	uint32 dungeon_id = 6;
+	repeated DungeonCandidateTeamAvatar avatar_list = 11;
 	repeated uint32 ready_player_uid = 4;
-	uint32 match_type = 10;
-	map<uint32, DungeonCandidateTeamPlayerState> player_state_map = 5;
+	uint32 match_type = 8;
+	map<uint32, DungeonCandidateTeamPlayerState> player_state_map = 2;
 }

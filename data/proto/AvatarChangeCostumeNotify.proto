@@ -8,8 +8,8 @@ message AvatarChangeCostumeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1673;
+		CMD_ID = 1780;
 	}
 
-	SceneEntityInfo entity_info = 8;
+	SceneEntityInfo entity_info = 1;
 }

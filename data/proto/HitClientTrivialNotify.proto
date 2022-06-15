@@ -5,13 +5,13 @@ import "Vector.proto";
 message HitClientTrivialNotify {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 232;
+		CMD_ID = 218;
 	}
 
-	Vector position = 5;
-	uint32 owner_entity_id = 12;
+	Vector position = 14;
+	uint32 owner_entity_id = 3;
 }

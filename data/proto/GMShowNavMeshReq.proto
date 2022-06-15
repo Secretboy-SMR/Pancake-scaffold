@@ -5,13 +5,13 @@ import "Vector.proto";
 message GMShowNavMeshReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 2364;
+		CMD_ID = 2377;
 	}
 
-	Vector center = 11;
-	Vector extent = 15;
+	Vector center = 1;
+	Vector extent = 6;
 }

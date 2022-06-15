@@ -7,10 +7,10 @@ message PlayerLuaShellNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 125;
+		CMD_ID = 110;
 	}
 
-	uint32 id = 3;
-	bytes lua_shell = 7;
-	uint32 use_type = 9;
+	uint32 id = 6;
+	bytes lua_shell = 12;
+	uint32 use_type = 10;
 }

@@ -8,11 +8,11 @@ message PlayerPropChangeReasonNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1227;
+		CMD_ID = 1282;
 	}
 
-	uint32 prop_type = 2;
-	float old_value = 6;
-	float cur_value = 15;
-	PropChangeReason reason = 10;
+	uint32 prop_type = 13;
+	float old_value = 5;
+	float cur_value = 9;
+	PropChangeReason reason = 3;
 }

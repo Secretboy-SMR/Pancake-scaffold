@@ -8,10 +8,10 @@ message TowerLevelStarCondNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2475;
+		CMD_ID = 2401;
 	}
 
-	uint32 floor_id = 4;
-	uint32 level_index = 11;
-	repeated TowerLevelStarCondData cond_data_list = 5;
+	uint32 floor_id = 3;
+	uint32 level_index = 6;
+	repeated TowerLevelStarCondData cond_data_list = 12;
 }

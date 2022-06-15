@@ -9,17 +9,17 @@ message DungeonPlayerDieNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 980;
+		CMD_ID = 955;
 	}
 
 	oneof Entity {
+		uint32 dungeon_id = 6;
+		uint32 gadget_id = 7;
 	}
-	uint32 dungeon_id = 13;
-	PlayerDieType die_type = 10;
-	uint32 revive_count = 15;
-	uint32 wait_time = 3;
+	PlayerDieType die_type = 3;
+	uint32 revive_count = 11;
+	uint32 wait_time = 5;
 	uint32 murderer_entity_id = 9;
-	uint32 monster_id = 1;
-	uint32 gadget_id = 12;
+	uint32 monster_id = 2;
 	map<uint32, StrengthenPointData> strengthen_point_data_map = 8;
 }

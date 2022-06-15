@@ -7,9 +7,9 @@ message ActivitySaleChangeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2077;
+		CMD_ID = 2102;
 	}
 
 	uint32 sale_id = 9;
-	bool is_close = 7;
+	bool is_close = 12;
 }

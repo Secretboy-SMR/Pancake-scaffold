@@ -8,9 +8,9 @@ message BargainStartNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 486;
+		CMD_ID = 406;
 	}
 
-	uint32 bargain_id = 9;
-	BargainSnapshot snapshot = 12;
+	uint32 bargain_id = 14;
+	BargainSnapshot snapshot = 11;
 }

@@ -8,9 +8,9 @@ message FleurFairBalloonSettleNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2147;
+		CMD_ID = 2093;
 	}
 
-	map<uint32, FleurFairBalloonSettleInfo> settle_info_map = 1;
-	uint32 minigame_id = 13;
+	map<uint32, FleurFairBalloonSettleInfo> settle_info_map = 2;
+	uint32 minigame_id = 11;
 }

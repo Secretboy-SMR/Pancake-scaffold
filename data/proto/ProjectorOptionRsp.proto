@@ -7,10 +7,10 @@ message ProjectorOptionRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 872;
+		CMD_ID = 842;
 	}
 
-	int32 retcode = 14;
-	uint32 op_type = 4;
+	int32 retcode = 15;
+	uint32 op_type = 3;
 	uint32 entity_id = 12;
 }

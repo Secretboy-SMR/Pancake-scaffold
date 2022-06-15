@@ -7,9 +7,9 @@ message EquipRoguelikeRuneRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8880;
+		CMD_ID = 8516;
 	}
 
-	int32 retcode = 8;
-	repeated uint32 rune_list = 13;
+	int32 retcode = 12;
+	repeated uint32 rune_list = 14;
 }

@@ -8,7 +8,7 @@ message QueryPathRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2333;
+		CMD_ID = 2331;
 	}
 
 	enum PathStatusType {
@@ -18,7 +18,7 @@ message QueryPathRsp {
 	}
 
 	int32 retcode = 14;
-	int32 query_id = 15;
-	PathStatusType query_status = 9;
-	repeated Vector corners = 2;
+	int32 query_id = 2;
+	PathStatusType query_status = 5;
+	repeated Vector corners = 12;
 }

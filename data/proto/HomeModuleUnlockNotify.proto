@@ -7,8 +7,8 @@ message HomeModuleUnlockNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4674;
+		CMD_ID = 4781;
 	}
 
-	uint32 module_id = 9;
+	uint32 module_id = 14;
 }

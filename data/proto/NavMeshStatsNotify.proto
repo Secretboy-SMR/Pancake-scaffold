@@ -5,12 +5,12 @@ import "PbNavMeshStatsInfo.proto";
 message NavMeshStatsNotify {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 2326;
+		CMD_ID = 2387;
 	}
 
-	repeated PbNavMeshStatsInfo infos = 1;
+	repeated PbNavMeshStatsInfo infos = 6;
 }

@@ -7,8 +7,8 @@ message SetH5ActivityRedDotTimestampRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5651;
+		CMD_ID = 5678;
 	}
 
-	int32 retcode = 11;
+	int32 retcode = 3;
 }

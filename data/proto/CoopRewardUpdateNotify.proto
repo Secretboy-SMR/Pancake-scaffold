@@ -8,8 +8,8 @@ message CoopRewardUpdateNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1966;
+		CMD_ID = 1951;
 	}
 
-	repeated CoopReward reward_list = 11;
+	repeated CoopReward reward_list = 4;
 }

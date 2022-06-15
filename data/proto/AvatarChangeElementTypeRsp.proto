@@ -7,8 +7,8 @@ message AvatarChangeElementTypeRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1766;
+		CMD_ID = 1708;
 	}
 
-	int32 retcode = 13;
+	int32 retcode = 15;
 }

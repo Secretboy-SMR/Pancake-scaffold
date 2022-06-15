@@ -7,9 +7,9 @@ message TakeDeliveryDailyRewardRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2144;
+		CMD_ID = 2137;
 	}
 
-	int32 retcode = 10;
+	int32 retcode = 2;
 	uint32 schedule_id = 2;
 }

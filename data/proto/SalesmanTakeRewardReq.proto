@@ -4,13 +4,13 @@ syntax = "proto3";
 message SalesmanTakeRewardReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 2123;
+		CMD_ID = 2183;
 	}
 
-	uint32 schedule_id = 3;
-	uint32 position = 7;
+	uint32 schedule_id = 7;
+	uint32 position = 11;
 }

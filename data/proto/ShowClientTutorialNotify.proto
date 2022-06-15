@@ -7,7 +7,7 @@ message ShowClientTutorialNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3471;
+		CMD_ID = 3079;
 	}
 
 	uint32 tutorial_id = 7;

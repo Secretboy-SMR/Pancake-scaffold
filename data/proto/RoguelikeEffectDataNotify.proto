@@ -8,9 +8,9 @@ message RoguelikeEffectDataNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8685;
+		CMD_ID = 8606;
 	}
 
-	repeated RogueEffectRecord card_list = 7;
-	repeated RogueEffectRecord curse_list = 11;
+	repeated RogueEffectRecord card_list = 11;
+	repeated RogueEffectRecord curse_list = 15;
 }

@@ -7,7 +7,7 @@ message PlayerPreEnterMpNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1804;
+		CMD_ID = 1847;
 	}
 
 	enum State {
@@ -16,7 +16,7 @@ message PlayerPreEnterMpNotify {
 		TIMEOUT = 2;
 	}
 
-	uint32 uid = 15;
-	State state = 11;
-	string nickname = 13;
+	uint32 uid = 10;
+	State state = 15;
+	string nickname = 2;
 }

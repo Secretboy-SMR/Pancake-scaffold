@@ -5,12 +5,12 @@ import "EntityAbilityInvokeEntry.proto";
 message ClientAbilitiesInitFinishCombineNotify {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 1200;
+		CMD_ID = 1185;
 	}
 
-	repeated EntityAbilityInvokeEntry entity_invoke_list = 10;
+	repeated EntityAbilityInvokeEntry entity_invoke_list = 2;
 }

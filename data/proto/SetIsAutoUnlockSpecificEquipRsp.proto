@@ -7,8 +7,8 @@ message SetIsAutoUnlockSpecificEquipRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 605;
+		CMD_ID = 695;
 	}
 
-	int32 retcode = 4;
+	int32 retcode = 2;
 }

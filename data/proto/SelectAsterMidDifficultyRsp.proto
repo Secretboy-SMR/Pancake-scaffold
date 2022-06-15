@@ -7,11 +7,11 @@ message SelectAsterMidDifficultyRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2174;
+		CMD_ID = 2083;
 	}
 
-	int32 retcode = 15;
-	uint32 schedule_id = 7;
+	int32 retcode = 7;
+	uint32 schedule_id = 3;
 	uint32 gadget_entity_id = 3;
 	uint32 difficulty_id = 4;
 }

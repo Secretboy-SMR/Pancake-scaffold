@@ -7,8 +7,8 @@ message ForceAddPlayerFriendReq {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4064;
+		CMD_ID = 4077;
 	}
 
-	uint32 target_uid = 4;
+	uint32 target_uid = 1;
 }

@@ -7,11 +7,11 @@ message LuaEnvironmentEffectNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3427;
+		CMD_ID = 3289;
 	}
 
-	uint32 type = 2;
-	string effect_alias = 15;
-	repeated float float_param_list = 5;
-	repeated int32 int_param_list = 12;
+	uint32 type = 4;
+	string effect_alias = 8;
+	repeated float float_param_list = 3;
+	repeated int32 int_param_list = 1;
 }

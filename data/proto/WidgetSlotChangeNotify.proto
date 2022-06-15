@@ -9,9 +9,9 @@ message WidgetSlotChangeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4268;
+		CMD_ID = 4260;
 	}
 
-	WidgetSlotOp op = 10;
+	WidgetSlotOp op = 7;
 	WidgetSlotData slot = 2;
 }

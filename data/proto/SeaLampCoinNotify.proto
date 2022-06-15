@@ -7,8 +7,8 @@ message SeaLampCoinNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2040;
+		CMD_ID = 2096;
 	}
 
-	uint32 sea_lamp_coin = 8;
+	uint32 sea_lamp_coin = 1;
 }

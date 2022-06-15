@@ -5,13 +5,13 @@ import "ItemParam.proto";
 message SeaLampContributeItemReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 2054;
+		CMD_ID = 2168;
 	}
 
-	uint32 activity_id = 13;
-	repeated ItemParam item_list = 4;
+	uint32 activity_id = 7;
+	repeated ItemParam item_list = 8;
 }

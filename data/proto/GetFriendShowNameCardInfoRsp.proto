@@ -7,10 +7,10 @@ message GetFriendShowNameCardInfoRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4031;
+		CMD_ID = 4060;
 	}
 
-	int32 retcode = 5;
-	uint32 uid = 1;
-	repeated uint32 show_name_card_id_list = 9;
+	int32 retcode = 3;
+	uint32 uid = 8;
+	repeated uint32 show_name_card_id_list = 4;
 }

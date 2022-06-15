@@ -9,13 +9,13 @@ message MultistagePlaySettleNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5355;
+		CMD_ID = 5314;
 	}
 
 	oneof Detail {
 	}
-	uint32 play_index = 14;
-	uint32 group_id = 13;
-	InBattleMechanicusSettleInfo mechanicus_settle_info = 472;
-	InBattleChessSettleInfo chess_settle_info = 839;
+	uint32 play_index = 12;
+	uint32 group_id = 1;
+	InBattleMechanicusSettleInfo mechanicus_settle_info = 187;
+	InBattleChessSettleInfo chess_settle_info = 411;
 }

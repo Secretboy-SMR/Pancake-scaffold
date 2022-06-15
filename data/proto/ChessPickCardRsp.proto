@@ -7,10 +7,10 @@ message ChessPickCardRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5357;
+		CMD_ID = 5366;
 	}
 
-	int32 retcode = 2;
-	uint32 card_id = 12;
-	uint32 card_index = 7;
+	int32 retcode = 4;
+	uint32 card_id = 14;
+	uint32 card_index = 11;
 }

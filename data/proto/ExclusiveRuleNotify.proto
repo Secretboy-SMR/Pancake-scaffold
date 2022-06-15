@@ -8,8 +8,8 @@ message ExclusiveRuleNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 182;
+		CMD_ID = 123;
 	}
 
-	repeated ExclusiveRuleInfo rule_info_list = 13;
+	repeated ExclusiveRuleInfo rule_info_list = 7;
 }

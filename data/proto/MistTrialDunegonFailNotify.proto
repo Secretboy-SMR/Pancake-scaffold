@@ -7,8 +7,8 @@ message MistTrialDunegonFailNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8121;
+		CMD_ID = 8580;
 	}
 
-	int32 dungeon_id = 6;
+	int32 dungeon_id = 1;
 }

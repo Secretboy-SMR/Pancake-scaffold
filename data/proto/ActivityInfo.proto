@@ -37,6 +37,10 @@ import "ActivityWatcherInfo.proto";
 
 message ActivityInfo {
 	oneof Detail {
+		uint32 activity_id = 12;
+		uint32 begin_time = 13;
+		uint32 end_time = 11;
+		bool is_play_open_anim = 14;
 		SeaLampActivityDetailInfo sam_lamp_info = 11;
 		CrucibleActivityDetailInfo crucible_info = 12;
 		SalesmanActivityDetailInfo salesman_info = 13;
@@ -71,22 +75,18 @@ message ActivityInfo {
 		RoguelikeDungeonActivityDetailInfo roguelike_dungoen_info = 76;
 		DigActivityDetailInfo dig_info = 77;
 	}
-	uint32 activity_id = 1;
-	uint32 schedule_id = 2;
-	uint32 begin_time = 3;
-	uint32 end_time = 4;
-	uint32 activity_type = 5;
-	bool is_play_open_anim = 6;
+	uint32 schedule_id = 10;
+	uint32 activity_type = 8;
 	bool is_finished = 7;
-	bool is_starting = 8;
-	repeated ActivityWatcherInfo watcher_info_list = 9;
-	repeated uint32 meet_cond_list = 10;
-	repeated uint32 expire_cond_list = 15;
-	uint32 selected_avatar_reward_id = 17;
-	map<uint32, uint32> activity_coin_map = 18;
-	uint32 score_limit = 19;
-	uint32 cur_score = 20;
-	repeated uint32 taken_reward_list = 24;
-	bool is_hidden = 26;
-	uint32 first_day_start_time = 27;
+	bool is_starting = 9;
+	repeated ActivityWatcherInfo watcher_info_list = 4;
+	repeated uint32 meet_cond_list = 15;
+	repeated uint32 expire_cond_list = 1;
+	uint32 selected_avatar_reward_id = 1394;
+	map<uint32, uint32> activity_coin_map = 1648;
+	uint32 score_limit = 1187;
+	uint32 cur_score = 527;
+	repeated uint32 taken_reward_list = 1262;
+	bool is_hidden = 110;
+	uint32 first_day_start_time = 144;
 }

@@ -7,11 +7,11 @@ message SeaLampContributeItemRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2022;
+		CMD_ID = 2159;
 	}
 
-	int32 retcode = 13;
+	int32 retcode = 3;
 	uint32 total_contribution = 8;
-	uint32 add_contribution = 11;
-	uint32 add_progress = 10;
+	uint32 add_contribution = 10;
+	uint32 add_progress = 14;
 }

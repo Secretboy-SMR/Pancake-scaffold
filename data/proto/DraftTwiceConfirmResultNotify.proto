@@ -7,9 +7,9 @@ message DraftTwiceConfirmResultNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5423;
+		CMD_ID = 5407;
 	}
 
-	uint32 draft_id = 8;
-	bool is_all_argee = 5;
+	uint32 draft_id = 5;
+	bool is_all_argee = 13;
 }

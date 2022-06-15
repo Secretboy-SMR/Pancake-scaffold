@@ -8,7 +8,7 @@ message EntityJumpNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 206;
+		CMD_ID = 224;
 	}
 
 	enum Type {
@@ -17,8 +17,8 @@ message EntityJumpNotify {
 		PASSIVE = 2;
 	}
 
-	uint32 entity_id = 13;
-	Type jump_type = 1;
+	uint32 entity_id = 8;
+	Type jump_type = 11;
 	Vector pos = 10;
-	Vector rot = 12;
+	Vector rot = 1;
 }

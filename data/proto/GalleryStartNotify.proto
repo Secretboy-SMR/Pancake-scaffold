@@ -8,13 +8,13 @@ message GalleryStartNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5558;
+		CMD_ID = 5509;
 	}
 
 	oneof Detail {
+		uint32 end_time = 11;
 	}
-	uint32 gallery_id = 6;
-	uint32 end_time = 13;
-	uint32 player_count = 1;
-	GalleryFlowerStartParam flower_start_param = 15;
+	uint32 gallery_id = 14;
+	uint32 player_count = 2;
+	GalleryFlowerStartParam flower_start_param = 13;
 }

@@ -7,11 +7,11 @@ message ShowTemplateReminderNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3440;
+		CMD_ID = 3011;
 	}
 
-	uint32 template_reminder_id = 2;
+	uint32 template_reminder_id = 12;
 	repeated int32 param_list = 8;
-	repeated uint32 param_uid_list = 1;
-	bool is_revoke = 12;
+	repeated uint32 param_uid_list = 9;
+	bool is_revoke = 14;
 }

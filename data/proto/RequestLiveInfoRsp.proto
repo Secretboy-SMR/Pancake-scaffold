@@ -7,11 +7,11 @@ message RequestLiveInfoRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 839;
+		CMD_ID = 850;
 	}
 
-	int32 retcode = 4;
-	uint32 live_id = 14;
-	string live_url = 6;
+	int32 retcode = 11;
+	uint32 live_id = 2;
+	string live_url = 3;
 	string spare_live_url = 7;
 }

@@ -7,9 +7,9 @@ message MiracleRingDropResultNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5233;
+		CMD_ID = 5203;
 	}
 
-	int32 drop_result = 6;
-	int32 last_take_reward_time = 4;
+	int32 drop_result = 1;
+	int32 last_take_reward_time = 11;
 }

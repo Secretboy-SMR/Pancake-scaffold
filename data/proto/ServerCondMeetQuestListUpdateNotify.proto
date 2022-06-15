@@ -7,9 +7,9 @@ message ServerCondMeetQuestListUpdateNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 475;
+		CMD_ID = 401;
 	}
 
-	repeated uint32 add_quest_id_list = 2;
-	repeated uint32 del_quest_id_list = 7;
+	repeated uint32 add_quest_id_list = 9;
+	repeated uint32 del_quest_id_list = 6;
 }

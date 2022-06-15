@@ -2,7 +2,7 @@ syntax = "proto3";
 
 
 message ReunionPrivilegeInfo {
-	uint32 privilege_id = 1;
-	uint32 cur_day_count = 2;
-	uint32 total_count = 3;
+	uint32 privilege_id = 6;
+	uint32 cur_day_count = 13;
+	uint32 total_count = 1;
 }

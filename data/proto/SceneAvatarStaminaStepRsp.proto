@@ -6,12 +6,12 @@ message SceneAvatarStaminaStepRsp {
 	enum CmdId {
 		option allow_alias = true;
 		NONE = 0;
-		ENET_IS_RELIABLE = 1;
 		ENET_CHANNEL_ID = 1;
-		CMD_ID = 280;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 255;
 	}
 
-	int32 retcode = 5;
-	bool use_client_rot = 4;
-	Vector rot = 10;
+	int32 retcode = 11;
+	bool use_client_rot = 1;
+	Vector rot = 7;
 }

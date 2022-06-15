@@ -7,9 +7,9 @@ message UnlockedFurnitureFormulaDataNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4454;
+		CMD_ID = 4680;
 	}
 
-	bool is_all = 5;
-	repeated uint32 furniture_id_list = 8;
+	bool is_all = 14;
+	repeated uint32 furniture_id_list = 7;
 }

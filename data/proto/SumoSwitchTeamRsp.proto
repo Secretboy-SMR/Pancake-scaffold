@@ -8,13 +8,13 @@ message SumoSwitchTeamRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8321;
+		CMD_ID = 8442;
 	}
 
-	int32 retcode = 4;
-	uint32 activity_id = 5;
-	uint32 stage_id = 14;
-	uint32 cur_team_index = 2;
-	repeated SumoDungeonTeam dungeon_team_list = 11;
-	uint32 next_valid_switch_time = 13;
+	int32 retcode = 8;
+	uint32 activity_id = 4;
+	uint32 stage_id = 9;
+	uint32 cur_team_index = 7;
+	repeated SumoDungeonTeam dungeon_team_list = 6;
+	uint32 next_valid_switch_time = 15;
 }

@@ -8,8 +8,8 @@ message CityReputationDataNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2841;
+		CMD_ID = 2898;
 	}
 
-	repeated CityReputationSimpleInfo simple_info_list = 8;
+	repeated CityReputationSimpleInfo simple_info_list = 4;
 }

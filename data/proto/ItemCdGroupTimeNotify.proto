@@ -7,8 +7,8 @@ message ItemCdGroupTimeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 603;
+		CMD_ID = 611;
 	}
 
-	map<uint32, uint64> item_cd_map = 4;
+	map<uint32, uint64> item_cd_map = 8;
 }

@@ -8,8 +8,8 @@ message PushTipsChangeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2243;
+		CMD_ID = 2238;
 	}
 
-	repeated PushTipsData push_tips_list = 3;
+	repeated PushTipsData push_tips_list = 13;
 }

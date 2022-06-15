@@ -8,10 +8,10 @@ message SceneRouteChangeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 221;
+		CMD_ID = 278;
 	}
 
-	uint32 scene_id = 2;
-	repeated SceneRouteChangeInfo route_list = 3;
-	uint32 scene_time = 13;
+	uint32 scene_id = 10;
+	repeated SceneRouteChangeInfo route_list = 14;
+	uint32 scene_time = 9;
 }

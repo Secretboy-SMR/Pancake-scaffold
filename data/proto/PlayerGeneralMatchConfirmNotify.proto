@@ -7,10 +7,10 @@ message PlayerGeneralMatchConfirmNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4158;
+		CMD_ID = 4182;
 	}
 
-	uint32 match_id = 11;
-	uint32 uid = 15;
-	bool is_agree = 14;
+	uint32 match_id = 7;
+	uint32 uid = 8;
+	bool is_agree = 2;
 }

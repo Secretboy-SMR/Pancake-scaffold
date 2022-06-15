@@ -7,8 +7,8 @@ message DungeonShowReminderNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 917;
+		CMD_ID = 930;
 	}
 
-	uint32 reminder_id = 2;
+	uint32 reminder_id = 10;
 }

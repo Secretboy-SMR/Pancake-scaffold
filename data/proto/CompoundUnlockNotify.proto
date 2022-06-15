@@ -7,8 +7,8 @@ message CompoundUnlockNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 185;
+		CMD_ID = 181;
 	}
 
-	uint32 compound_id = 2;
+	uint32 compound_id = 4;
 }

@@ -8,8 +8,8 @@ message PlayerInvestigationTargetNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1913;
+		CMD_ID = 1906;
 	}
 
-	repeated InvestigationTarget investigation_target_list = 6;
+	repeated InvestigationTarget investigation_target_list = 14;
 }

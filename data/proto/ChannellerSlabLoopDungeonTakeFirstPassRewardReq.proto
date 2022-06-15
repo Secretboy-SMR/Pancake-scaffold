@@ -4,12 +4,12 @@ syntax = "proto3";
 message ChannellerSlabLoopDungeonTakeFirstPassRewardReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 8543;
+		CMD_ID = 8910;
 	}
 
-	uint32 dungeon_index = 7;
+	uint32 dungeon_index = 6;
 }

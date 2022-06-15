@@ -7,9 +7,9 @@ message WatcherChangeNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 2233;
+		CMD_ID = 2231;
 	}
 
-	repeated uint32 new_watcher_list = 3;
-	repeated uint32 removed_watcher_list = 2;
+	repeated uint32 new_watcher_list = 9;
+	repeated uint32 removed_watcher_list = 5;
 }

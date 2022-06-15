@@ -4,11 +4,11 @@ syntax = "proto3";
 message RegionSearchChangeRegionNotify {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 5641;
+		CMD_ID = 5609;
 	}
 
 	enum RegionEvent {
@@ -17,6 +17,6 @@ message RegionSearchChangeRegionNotify {
 		LEAVE = 2;
 	}
 
-	uint32 region_id = 4;
-	RegionEvent event = 13;
+	uint32 region_id = 10;
+	RegionEvent event = 5;
 }

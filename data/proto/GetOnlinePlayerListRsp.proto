@@ -8,10 +8,10 @@ message GetOnlinePlayerListRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 63;
+		CMD_ID = 49;
 	}
 
-	int32 retcode = 9;
-	repeated OnlinePlayerInfo player_info_list = 13;
-	uint32 param = 5;
+	int32 retcode = 12;
+	repeated OnlinePlayerInfo player_info_list = 10;
+	uint32 param = 2;
 }

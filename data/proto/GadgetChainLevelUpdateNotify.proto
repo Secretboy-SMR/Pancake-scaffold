@@ -7,8 +7,8 @@ message GadgetChainLevelUpdateNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 870;
+		CMD_ID = 863;
 	}
 
-	map<uint32, uint32> gadget_chain_level_map = 13;
+	map<uint32, uint32> gadget_chain_level_map = 14;
 }

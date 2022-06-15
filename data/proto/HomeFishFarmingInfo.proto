@@ -2,6 +2,6 @@ syntax = "proto3";
 
 
 message HomeFishFarmingInfo {
-	uint32 fishpond_guid = 1;
-	repeated uint32 fish_id_list = 2;
+	uint32 fishpond_guid = 10;
+	repeated uint32 fish_id_list = 11;
 }

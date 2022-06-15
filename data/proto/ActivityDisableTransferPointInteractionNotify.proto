@@ -8,9 +8,9 @@ message ActivityDisableTransferPointInteractionNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8101;
+		CMD_ID = 8686;
 	}
 
-	Uint32Pair scene_point_pair = 10;
-	bool is_disable = 3;
+	Uint32Pair scene_point_pair = 4;
+	bool is_disable = 8;
 }

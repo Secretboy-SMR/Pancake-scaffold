@@ -7,8 +7,8 @@ message DungeonCandidateTeamRefuseNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 939;
+		CMD_ID = 950;
 	}
 
-	uint32 player_uid = 10;
+	uint32 player_uid = 8;
 }

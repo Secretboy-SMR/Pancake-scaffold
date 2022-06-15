@@ -8,9 +8,9 @@ message HomeLimitedShopInfoRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4657;
+		CMD_ID = 4463;
 	}
 
-	int32 retcode = 4;
-	HomeLimitedShopInfo shop_info = 13;
+	int32 retcode = 8;
+	HomeLimitedShopInfo shop_info = 10;
 }

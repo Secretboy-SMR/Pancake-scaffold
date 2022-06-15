@@ -7,9 +7,9 @@ message H5ActivityIdsNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5681;
+		CMD_ID = 5693;
 	}
 
-	map<uint32, uint32> h5_activity_map = 4;
-	uint32 client_red_dot_timestamp = 6;
+	map<uint32, uint32> h5_activity_map = 3;
+	uint32 client_red_dot_timestamp = 15;
 }

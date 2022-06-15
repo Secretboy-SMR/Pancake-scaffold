@@ -7,8 +7,8 @@ message CanUseSkillNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 1041;
+		CMD_ID = 1098;
 	}
 
-	bool is_can_use_skill = 3;
+	bool is_can_use_skill = 6;
 }

@@ -3,6 +3,6 @@ syntax = "proto3";
 import "Vector.proto";
 
 message WidgetCreateLocationInfo {
-	Vector pos = 1;
-	Vector rot = 2;
+	Vector pos = 14;
+	Vector rot = 4;
 }

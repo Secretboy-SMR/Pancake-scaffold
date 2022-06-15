@@ -6,15 +6,15 @@ import "Vector.proto";
 message DropItemReq {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 627;
+		CMD_ID = 682;
 	}
 
-	StoreType store_type = 13;
-	uint64 guid = 7;
+	StoreType store_type = 8;
+	uint64 guid = 9;
 	uint32 count = 3;
-	Vector pos = 6;
+	Vector pos = 14;
 }

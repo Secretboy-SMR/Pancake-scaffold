@@ -9,12 +9,12 @@ message FleurFairStageSettleNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 5373;
+		CMD_ID = 5384;
 	}
 
 	oneof Detail {
-		FleurFairGallerySettleInfo gallery_settle_info = 12;
 	}
-	uint32 stage_type = 2;
-	FleurFairBossSettleInfo boss_settle_info = 4;
+	uint32 stage_type = 1;
+	FleurFairGallerySettleInfo gallery_settle_info = 4;
+	FleurFairBossSettleInfo boss_settle_info = 2;
 }

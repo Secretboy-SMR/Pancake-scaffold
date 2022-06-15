@@ -6,23 +6,23 @@ import "Vector.proto";
 message EvtAvatarEnterFocusNotify {
 	enum CmdId {
 		option allow_alias = true;
-		ENET_CHANNEL_ID = 0;
 		NONE = 0;
+		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
 		IS_ALLOW_CLIENT = 1;
-		CMD_ID = 386;
+		CMD_ID = 306;
 	}
 
-	ForwardType forward_type = 15;
-	uint32 entity_id = 8;
-	bool fast_focus = 3;
+	ForwardType forward_type = 11;
+	uint32 entity_id = 3;
+	bool fast_focus = 15;
 	bool use_focus_sticky = 7;
-	bool use_auto_focus = 2;
-	bool use_gyro = 13;
+	bool use_auto_focus = 1;
+	bool use_gyro = 9;
 	bool can_move = 5;
-	bool show_cross_hair = 4;
-	Vector focus_forward = 10;
-	bool enter_normal_focus_shoot = 12;
+	bool show_cross_hair = 6;
+	Vector focus_forward = 8;
+	bool enter_normal_focus_shoot = 13;
 	bool enter_holding_focus_shoot = 14;
-	bool disable_anim = 1;
+	bool disable_anim = 12;
 }

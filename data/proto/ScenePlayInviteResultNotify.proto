@@ -7,9 +7,9 @@ message ScenePlayInviteResultNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4377;
+		CMD_ID = 4432;
 	}
 
-	uint32 play_id = 13;
-	bool is_all_argee = 9;
+	uint32 play_id = 8;
+	bool is_all_argee = 1;
 }

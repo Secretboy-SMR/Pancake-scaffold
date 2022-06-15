@@ -7,10 +7,10 @@ message PlantFlowerGiveFriendFlowerRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 8414;
+		CMD_ID = 8893;
 	}
 
-	int32 retcode = 10;
+	int32 retcode = 6;
 	uint32 schedule_id = 3;
-	repeated uint32 limit_flower_list = 2;
+	repeated uint32 limit_flower_list = 10;
 }

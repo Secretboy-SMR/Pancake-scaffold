@@ -9,14 +9,14 @@ message PlayerMatchSuccNotify {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 4153;
+		CMD_ID = 4176;
 	}
 
-	MatchType match_type = 15;
-	uint32 confirm_end_time = 10;
-	uint32 host_uid = 1;
-	uint32 dungeon_id = 13;
-	uint32 mp_play_id = 12;
-	uint32 mechanicus_difficult_level = 7;
-	GeneralMatchInfo general_match_info = 11;
+	MatchType match_type = 13;
+	uint32 confirm_end_time = 7;
+	uint32 host_uid = 8;
+	uint32 dungeon_id = 1;
+	uint32 mp_play_id = 5;
+	uint32 mechanicus_difficult_level = 10;
+	GeneralMatchInfo general_match_info = 3;
 }

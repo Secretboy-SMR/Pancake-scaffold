@@ -8,9 +8,9 @@ message GetDungeonEntryExploreConditionRsp {
 		NONE = 0;
 		ENET_CHANNEL_ID = 0;
 		ENET_IS_RELIABLE = 1;
-		CMD_ID = 3378;
+		CMD_ID = 3099;
 	}
 
-	int32 retcode = 10;
-	DungeonEntryCond dungeon_entry_cond = 8;
+	int32 retcode = 12;
+	DungeonEntryCond dungeon_entry_cond = 2;
 }
