@@ -1,4 +1,4 @@
-module.exports = {//模块导出
+module.exports = {
     async execute(dataUtil,protobuf,protobuff,jsondata,kcpobj,keyBuffer,player,world){
         packetIdName="GetPlayerTokenRsp";
         var packetID=dataUtil.getPacketIDByProtoName(packetIdName);
