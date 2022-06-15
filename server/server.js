@@ -67,7 +67,7 @@ async function handleSendPacket(noMagic,packetID, kcpobj, keyBuffer) {
         console.log(`handle undefined：./handle/${packetIdName}。`);
     };
     if(packetIdName=="GetPlayerTokenReq"){
-        require('child_process').execFile('./server/seed/ConsoleApp2.exe', [2], function (err, data) {
+        require('child_process').execFile('./server/seed/ConsoleApp2.exe', [0], function (err, data) {
             if (err) {
                 console.log(err)
             }
