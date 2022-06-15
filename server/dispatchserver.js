@@ -15,20 +15,18 @@ module.exports = {//模块导出
 
             try {
                 res.writeHead(200, { "Content-Type": "text/html" });
-                if(req.url!="/log"&&req.url!="/crash/dataUpload"&&req.url!="/sdk/dataUpload"){
-                  //console.log("[HTTP] REQ URL: %s", req.url);
+                console.log("[HTTP] REQ URL: %s", req.url);
+                if(req.url.split("/")[1] == "query_cur_region"){
+                    require("./dispatch/query_cur_region").execute(req,res);
+                }else{
+                    const file = fs.readFileSync("./server/dispatch/" + req.url.split("?")[0] + ".json").toString();
+                    res.end(file);
                 }
-                const file = fs.readFileSync("./server/dispatch/" + req.url.split("?")[0] + ".json").toString();
-                res.end(file);
             }
             catch (e) {
                 res.writeHead(200, { "Content-Type": "text/html" });
-                if(req.url=="/admin/mi18n/plat_oversea/m2020030410/m2020030410-version.json")
-                  res.end('{"version": 52}');
-                else{
-                  //console.log("[HTTP] Module %s wasnt found.", req.url);
-                  res.end('{"code":0}');
-                }
+                console.log("[HTTP] Module %s wasnt found.", req.url);
+                res.end('{"code":0}');
                 
             }
         }
