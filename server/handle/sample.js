@@ -1,4 +1,4 @@
-module.exports = {//模块导出
+module.exports = {
     async execute(dataUtil,protobuf,protobuff,jsondata,kcpobj,keyBuffer,player,world){
         var packetIdName="PingRsp";
         var packetID=dataUtil.getPacketIDByProtoName(packetIdName);

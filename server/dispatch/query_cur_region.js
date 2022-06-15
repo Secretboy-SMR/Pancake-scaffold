@@ -19,7 +19,6 @@ function decrypt(data) {
     }
 module.exports = {
     async execute(req,res){
-    console.log("asdasd");
         const cur={
             regionfo: {
             gateserverIp: '127.0.0.1',
