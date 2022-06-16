@@ -1,2 +1,13 @@
 {
+	"storeType": "STORE_PACK",
+	"itemList": [
+		{
+			"itemId": 108063,
+			"guid": 645099500834127980,
+			"material": {
+				"count": 3
+			}
+		}
+	],
+	"weightLimit": 30000
 }

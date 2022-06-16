@@ -1,2 +1,17 @@
 {
+    "900":{
+      "shop": {
+        "shopType": 900,
+        "cardProductList": [
+          {
+            "productId": "ys_chn_blessofmoon_tier5",
+            "priceTier": "Tier_5",
+            "mcoinBase": 300,
+            "hcoinPerDay": 90,
+            "days": 30,
+            "cardProductType": 1
+          }
+        ]
+      }
+    }
 }

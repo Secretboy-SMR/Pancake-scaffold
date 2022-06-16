@@ -1,2 +1,214 @@
 {
+    "uid":30819,
+    "name":"Pancake-scaffold",
+    "level":4,
+    "tlevel":55,
+    "birthday": {},
+    "onlineState": 1,
+    "isFriend": true,
+    "isMpModeAvailable": true,
+    "finishAchievementNum": 2,
+    "isFirstLoginToday":true,
+    "regionId":4160,
+    "nameCardId":210001,
+    "profilePicture":{
+      "avatarId": 10000007
+    },
+    "showAvatarInfoList": [
+      {
+        "avatarId": 10000047,
+        "level": 90
+      },
+      {
+        "avatarId": 10000052,
+        "level": 90
+      },
+      {
+        "avatarId": 10000046,
+        "level": 90
+      },
+      {
+        "avatarId": 10000026,
+        "level": 80
+      },
+      {
+        "avatarId": 10000054,
+        "level": 80
+      },
+      {
+        "avatarId": 10000022,
+        "level": 72
+      },
+      {
+        "avatarId": 10000063,
+        "level": 49
+      },
+      {
+        "avatarId": 10000033,
+        "level": 70
+      }
+    ],
+    "showNameCardIdList": [
+      210073,
+      210077,
+      210049,
+      210047,
+      210052,
+      210092,
+      210085,
+      210084,
+      210030
+    ],
+    "StoreWeightLimit":{
+        "storeType": "STORE_PACK",
+        "weightLimit": 30000,
+        "materialCountLimit": 2000,
+        "weaponCountLimit": 2000,
+        "reliquaryCountLimit": 1500,
+        "furnitureCountLimit": 2000
+    },
+    "propMap":{
+    "10004": {
+      "type": 10004,
+      "ival": "1",
+      "val": "1"
+    },
+    "10005": {
+      "type": 10005,
+      "ival": "100",
+      "val": "100"
+    },
+    "10006": {
+      "type": 10006,
+      "ival": "1",
+      "val": "1"
+    },
+    "10007": {
+      "type": 10007,
+      "ival": "0"
+    },
+    "10008": {
+      "type": 10008,
+      "ival": "0"
+    },
+    "10009": {
+      "type": 10009,
+      "ival": "1",
+      "val": "1"
+    },
+    "10010": {
+      "type": 10010,
+      "ival": "24000",
+      "val": "24000"
+    },
+    "10011": {
+      "type": 10011,
+      "ival": "24000",
+      "val": "24000"
+    },
+    "10012": {
+      "type": 10012,
+      "ival": "0"
+    },
+    "10013": {
+      "type": 10013,
+      "ival": "55",
+      "val": "55"
+    },
+    "10014": {
+      "type": 10014,
+      "ival": "172413",
+      "val": "172413"
+    },
+    "10015": {
+      "type": 10015,
+      "ival": "492",
+      "val": "492"
+    },
+    "10016": {
+      "type": 10016,
+      "ival": "4940596",
+      "val": "4940596"
+    },
+    "10017": {
+      "type": 10017,
+      "ival": "2",
+      "val": "2"
+    },
+    "10019": {
+      "type": 10019,
+      "ival": "8",
+      "val": "8"
+    },
+    "10020": {
+      "type": 10020,
+      "ival": "160",
+      "val": "160"
+    },
+    "10022": {
+      "type": 10022,
+      "ival": "0"
+    },
+    "10023": {
+      "type": 10023,
+      "ival": "0"
+    },
+    "10025": {
+      "type": 10025,
+      "ival": "0"
+    },
+    "10026": {
+      "type": 10026,
+      "ival": "0"
+    },
+    "10027": {
+      "type": 10027,
+      "ival": "3",
+      "val": "3"
+    },
+    "10035": {
+      "type": 10035,
+      "ival": "0"
+    },
+    "10036": {
+      "type": 10036,
+      "ival": "0"
+    },
+    "10037": {
+      "type": 10037,
+      "ival": "0"
+    },
+    "10038": {
+      "type": 10038,
+      "ival": "0"
+    },
+    "10039": {
+      "type": 10039,
+      "ival": "8",
+      "val": "8"
+    },
+    "10040": {
+      "type": 10040,
+      "ival": "1645670106",
+      "val": "1645670106"
+    },
+    "10041": {
+      "type": 10041,
+      "ival": "8",
+      "val": "8"
+    },
+    "10042": {
+      "type": 10042,
+      "ival": "25936",
+      "val": "25936"
+    },
+    "10043": {
+      "type": 10043,
+      "ival": "0"
+    },
+    "10044": {
+      "type": 10044,
+      "ival": "0"
+    }
+  }
 }
