@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-
-message CityReputationExploreInfo {
-	bool is_open = 8;
-	repeated uint32 taken_explore_reward_list = 1;
-	uint32 explore_percent = 4;
-}

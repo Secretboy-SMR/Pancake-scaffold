@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-
-message SceneGalleryBuoyantCombatInfo {
-	uint32 kill_monster_count = 7;
-	uint32 kill_special_monster_count = 13;
-	uint32 score = 3;
-}

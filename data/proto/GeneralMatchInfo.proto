@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-import "MatchPlayerInfo.proto";
-
-message GeneralMatchInfo {
-	uint32 match_id = 14;
-	repeated MatchPlayerInfo player_list = 15;
-	uint32 match_param = 13;
-}

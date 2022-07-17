@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-enum RogueCellState {
-	ROGUE_CELL_NONE = 0;
-	ROGUE_CELL_BATTLE = 1;
-	ROGUE_CELL_SUCCESS = 2;
-	ROGUE_CELL_FINISH = 3;
-	K_K_H_G_K_O_B_C_F_K_J = 4;
-}

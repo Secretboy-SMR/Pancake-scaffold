@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-
-message CityReputationHuntInfo {
-	bool is_open = 8;
-	bool has_reward = 12;
-	uint32 cur_week_finish_num = 6;
-}
